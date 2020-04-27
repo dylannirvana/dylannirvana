@@ -8,10 +8,22 @@ const port = process.env.PORT || 5000;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-// API calls
+// DEBUG:
+// Router
+// const indexRouter = require('./routes/index');
+// app.use('/', indexRouter);
+
 app.get('/api/hello', (req, res) => {
-  res.send({ express: 'Hello From Express' });
-});
+  res.send({ express: 'Are You Versatile?' })
+})
+
+// END
+
+
+// API calls
+// app.get('/api/hello', (req, res) => {
+//   res.send({ express: 'Hello From Versatile Express' });
+// });
 
 app.post('/api/world', (req, res) => {
   console.log(req.body);

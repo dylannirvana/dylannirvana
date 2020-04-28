@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import logo from './tonelogo.svg';
 import './App.css';
 
-// import Navbar from 'react-bootstrap/Navbar'
-// import Nav from 'react-bootstrap/Nav'
+import Nav from 'react-bootstrap/Nav'
+import Navbar from 'react-bootstrap/Navbar'
 
 class App extends Component {
   state = {
@@ -46,32 +46,18 @@ render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
 
-          {/* <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p> */}
-          {/* <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a> */}
-
-          {/* React-Bootstrap */}
-          {/* <Navbar bg="light" expand="lg">
-            <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+           {/* React-Bootstrap */}
+           <Navbar variant="light" bg="light" expand="sm">
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">
-                <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#link">Link</Nav.Link>
+                <Nav.Link href="/">React-routed Home</Nav.Link>
+                <Nav.Link href="/users">React-routed Users</Nav.Link>
               </Nav>
             </Navbar.Collapse>
-          </Navbar> */}
+          </Navbar>
 
+          <img src={logo} className="App-logo" alt="logo" />
         </header>
         <p>{this.state.response}</p>
         <form onSubmit={this.handleSubmit}>

@@ -38,17 +38,17 @@ const routing = (
       <ul>
         <li>
           <NavLink exact activeClassName="active" to="/">
-            Home
+          Server-routed Home
           </NavLink>
         </li>
         <li>
           <NavLink activeClassName="active" to="/users">
-            Users
+            Server-routed Users
           </NavLink>
         </li>
         <li>
           <NavLink activeClassName="active" to="/contact">
-            Contact
+            Server-routed Contact
           </NavLink>
         </li>
       </ul>

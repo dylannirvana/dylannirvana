@@ -17,7 +17,14 @@ import * as serviceWorker from './serviceWorker';
 const routing = (
   <Router>
     <div>
-      {/* <ul>
+    <Switch>
+        <Route exact path="/" component={App} />
+        <Route path="/users/:id" component={Users} />
+        <Route path="/users" component={Users} />
+        <Route path="/contact" component={Contact} />
+        <Route component={Notfound} />
+      </Switch> 
+       {/* <ul>
         <li>
           <Link to="/">Home</Link>
         </li>
@@ -27,7 +34,7 @@ const routing = (
         <li>
           <Link to="/contact">Contact</Link>
         </li>
-      </ul> */}
+      </ul>  */}
       <ul>
         <li>
           <NavLink exact activeClassName="active" to="/">
@@ -46,13 +53,7 @@ const routing = (
         </li>
       </ul>
       <hr />
-      <Switch>
-        <Route exact path="/" component={App} />
-        <Route path="/users/:id" component={Users} />
-        <Route path="/users" component={Users} />
-        <Route path="/contact" component={Contact} />
-        <Route component={Notfound} />
-      </Switch> 
+      
     </div>
   </Router>
 )

@@ -7,27 +7,34 @@ import {
   Switch,
   BrowserRouter as Router 
 } from 'react-router-dom';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import Nav from 'react-bootstrap/Nav'
-// import Navbar from 'react-bootstrap/Navbar';
-
 import './index.css';
 import App from './App';
-import Users from './users';
-import Contact from './contact';
+import Story from './routes/story';
+import Artists from './routes/artists';
+import Clients from './routes/clients';
+import Contact from './routes/contact';
 import Notfound from './notfound';
 import * as serviceWorker from './serviceWorker';
 
 // Fix routing and styles =====
-
 // DONE: Remove styling from App.js and add to index.js
 // DONE: Add Bootstrap styles
 // DONE: Add Bootstrap Navbar to router in index.js
 // DONE: Make pages look presentable to show routes
+
+// DONE: Move route files to routes directory. Update path index.js
+// TODO: touch new "real" pages, and route them: STORY, ARTISTS, CLIENT
+// TODO: Secondary and footer pages
+
+// TODO: API for the Client page, that is their hub. How do you easily choose, and sign an artist?
+// NOTE: The preliminary CTA might be to get them to call
+
+
 // TODO: Review server-side routes
-// TODO: Fix Form on contact.js so it works
+// TODO: Build contact form contact.js 
+
 
 // DEBUG: Push and create Pull Request
 
@@ -44,12 +51,25 @@ const routing = (
         </Nav.Item>
 
         <Nav.Item>
-          <NavLink className="nav-link" exact activeClassName="active" to="/users">
-            Users
+          <NavLink className="nav-link" activeClassName="active" to="/story">
+            Story
           </NavLink>         
         </Nav.Item>
 
         <Nav.Item>
+          <NavLink className="nav-link" exact activeClassName="active" to="/artists">
+            Artists
+          </NavLink>         
+        </Nav.Item>
+
+        <Nav.Item>
+          <NavLink className="nav-link" exact activeClassName="active" to="/clients">
+            Clients
+          </NavLink>         
+        </Nav.Item>
+
+      {/* This is the CTA and somehow was to be emphasized */}
+      <Nav.Item>
           <NavLink className="nav-link" exact activeClassName="active" to="/contact">
             Contact
           </NavLink>         
@@ -58,11 +78,16 @@ const routing = (
 
       <Switch>
         <Route exact path="/" component={App} />
-        <Route path="/users/:id" component={Users} />
-        <Route path="/users" component={Users} />
+        <Route path="/story" component={Story} />
+        <Route path="/artists/:id" component={Artists} />
+        <Route path="/artists" component={Artists} />
+        <Route path="/clients/:id" component={Clients} />
+        <Route path="/clients" component={Clients} />
         <Route path="/contact" component={Contact} />
         <Route component={Notfound} />
       </Switch> 
+
+
     </div>
   </Router>
 )

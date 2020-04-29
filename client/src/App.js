@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import logo from './tonelogo.svg';
 import './App.css';
 
-
 class App extends Component {
   state = {
     response: '',
@@ -37,9 +36,7 @@ class App extends Component {
     
     this.setState({ responseToPost: body });
   };
-
-  
-  
+ 
 render() {
     return (
       <div className="App">

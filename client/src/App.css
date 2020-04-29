@@ -1,20 +1,25 @@
+/* TEXT ORIENTATION */
 .App {
   text-align: center;
 }
 
+/* LOGO SIZE */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
+/* LOGO ANIMATION */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
+/* STYLES FOR THE App.js HEADER */
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
+  /* Moved background-color to index.css so it is global */
   min-height: 100vh;
   /* min-height: 50%;  */
   padding-bottom: 10px;

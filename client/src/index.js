@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { 
   Route, 
   // Link, 
-  NavLink,
+  // NavLink,
   Switch,
   BrowserRouter as Router 
 } from 'react-router-dom';
@@ -18,12 +18,13 @@ const routing = (
   <Router>
     <div>
     <Switch>
-        <Route exact path="/" component={App} />
-        <Route path="/users/:id" component={Users} />
-        <Route path="/users" component={Users} />
-        <Route path="/contact" component={Contact} />
-        <Route component={Notfound} />
-      </Switch> 
+      <Route exact path="/" component={App} />
+      <Route path="/users/:id" component={Users} />
+      <Route path="/users" component={Users} />
+      <Route path="/contact" component={Contact} />
+      <Route component={Notfound} />
+    </Switch> 
+
        {/* <ul>
         <li>
           <Link to="/">Home</Link>
@@ -35,7 +36,8 @@ const routing = (
           <Link to="/contact">Contact</Link>
         </li>
       </ul>  */}
-      <ul>
+
+      {/* <ul>
         <li>
           <NavLink exact activeClassName="active" to="/">
           Server-routed Home
@@ -52,16 +54,13 @@ const routing = (
           </NavLink>
         </li>
       </ul>
-      <hr />
+      <hr /> */}
       
     </div>
   </Router>
 )
 
 ReactDOM.render(
-  // <React.StrictMode>
-  //   <App />
-  // </React.StrictMode>,
   routing,
   document.getElementById('root')
 );

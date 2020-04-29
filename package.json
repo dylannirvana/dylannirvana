@@ -1,6 +1,8 @@
 {
   "name": "vtg-server",
   "version": "1.0.0",
+  "author": "perry.cipolloni@gmail.com",
+  "license": "MIT",
   "scripts": {
     "start": "node server.js",
     "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build",

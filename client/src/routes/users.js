@@ -11,7 +11,11 @@ class Users extends React.Component {
     render() {
         return (
             <div>
-                <h1>Users</h1>
+                <h2>Users</h2>
+                <ol>
+                    <li>Authentication, db, admin access to users</li>
+                </ol>
+                <p>This is an internal page where admin can access all users. Artists and clients.</p>
                 <form>
                     <input placeholder="name" type="name" />
                     <input placeholder="email" type="email" />

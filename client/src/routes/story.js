@@ -13,7 +13,7 @@ class Story extends React.Component {
     render() {
         return (
             <div>
-                <h1>Is Story "about us"? What is important to say about who we are?</h1>
+                <h2>Is Story "about us"? What is important to say about who we are?</h2>
                 <ol>
                     <li>How do you want the user to feel after reading this page?</li>
                     <li>From this page, what does conversion look like?</li>

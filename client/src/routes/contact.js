@@ -11,7 +11,13 @@ class Contact extends React.Component {
     render() {
         return (
             <div>
-                <h1>Contact</h1>
+                <h2>Contact</h2>
+                <ol>
+                    <li>Stage one: user contacts VTG</li>
+                    <li>Stage two: handled through API</li>
+                </ol>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut nulla eaque cum laudantium enim! Labore aliquid numquam rem perferendis, harum excepturi veniam eos eligendi blanditiis corrupti soluta reprehenderit qui voluptate.</p>
+                <p>Server is handling POST requests</p>
                 <form>
                     <input placeholder="name" type="name" />
                     <input placeholder="email" type="email" />

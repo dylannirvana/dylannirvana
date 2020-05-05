@@ -1,7 +1,5 @@
 import React from 'react';
 import { 
-    // Route, 
-    Link 
 } from 'react-router-dom';
 
 
@@ -14,10 +12,10 @@ class Profile extends React.Component {
         return (
             <div>
                 <h2>Featured Artist / Featured Client</h2>
-                <p>Lorem ipsum </p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut nulla eaque cum laudantium enim! Labore aliquid numquam rem perferendis, harum excepturi veniam eos eligendi blanditiis corrupti soluta reprehenderit qui voluptate.</p>
             </div>
         )
     }
 }
 
-export default Client;
+export default Profile;

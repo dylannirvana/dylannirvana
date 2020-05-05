@@ -9,10 +9,15 @@ import {
 } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from 'react-bootstrap/Nav'
+// import Container from 'react-bootstrap/Container'
 import './index.css';
 // import './custom.scss'; // Works! Compiled by WebPack????
 import App from './App';
 import Story from './routes/story';
+import Media from './routes/media';
+import Profile from './routes/profile';
+import Login from './routes/login';
+import Users from './routes/users';
 import Artists from './routes/artists';
 import Clients from './routes/clients';
 import Contact from './routes/contact';
@@ -43,6 +48,8 @@ import * as serviceWorker from './serviceWorker';
 // DEBUG: Push and create Pull Request
 // NOTE: I want to be able to show distinct pages so routing is obvious. POST request needs to work. Some demo of server routing. Enough Bootstrap styling to make things presentable. 
 
+// TODO: Update nav
+
 const routing = (
   <Router>
     <div>   
@@ -54,20 +61,14 @@ const routing = (
         </Nav.Item>
 
         <Nav.Item>
-          <NavLink className="nav-link" activeClassName="active" to="/story">
-            Story
+          <NavLink className="nav-link" activeClassName="active" to="/media">
+            Media
           </NavLink>         
         </Nav.Item>
 
         <Nav.Item>
-          <NavLink className="nav-link" exact activeClassName="active" to="/artists">
-            Artists
-          </NavLink>         
-        </Nav.Item>
-
-        <Nav.Item>
-          <NavLink className="nav-link" exact activeClassName="active" to="/clients">
-            Clients
+          <NavLink className="nav-link" activeClassName="active" to="/profile">
+            Featured Artist
           </NavLink>         
         </Nav.Item>
 
@@ -81,7 +82,11 @@ const routing = (
 
       <Switch>
         <Route exact path="/" component={App} />
+        <Route path="/media" component={Media} />
+        <Route path="/profile" component={Profile} />
         <Route path="/story" component={Story} />
+        <Route path="/login" component={Login} />
+        <Route path="/users" component={Users} />
         <Route path="/artists/:id" component={Artists} />
         <Route path="/artists" component={Artists} />
         <Route path="/clients/:id" component={Clients} />
@@ -90,7 +95,40 @@ const routing = (
         <Route component={Notfound} />
       </Switch> 
 
+      <Nav className="justify-content-center" >
+      <Nav.Item>
+        <NavLink className="nav-link" exact activeClassName="active" to="/story">
+          Story
+        </NavLink>         
+      </Nav.Item>
 
+      <Nav.Item>
+        <NavLink className="nav-link" exact activeClassName="active" to="/artists">
+          Artists
+        </NavLink>         
+      </Nav.Item>
+
+      <Nav.Item>
+        <NavLink className="nav-link" exact activeClassName="active" to="/clients">
+          Clients
+        </NavLink>         
+      </Nav.Item>
+
+      <Nav.Item>
+        <NavLink className="nav-link" exact activeClassName="active" to="/login">
+          Login
+        </NavLink>         
+      </Nav.Item>
+
+      <Nav.Item>
+        <NavLink className="nav-link" exact activeClassName="active" to="/users">
+          Users
+        </NavLink>         
+      </Nav.Item>
+
+      </Nav>
+
+    
     </div>
   </Router>
 )

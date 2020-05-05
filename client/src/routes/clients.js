@@ -12,7 +12,7 @@ class Clients extends React.Component {
         const { params } = this.props.match;
         return (
             <div>
-                <h1>Page is Clients</h1>
+                <h1>Our Clients</h1>
                 <p>User id: {params.id}</p>
                 <ul>
                     <li>

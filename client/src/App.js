@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './tonelogo.svg';
 import './App.css';
+// import Story from './routes/story';
 
 class App extends Component {
   state = {
@@ -56,6 +57,7 @@ render() {
           <button type="submit">Submit</button>
         </form>
         <p>{this.state.responseToPost}</p>
+        {/* <Story /> */}
       </div>
     );
   }

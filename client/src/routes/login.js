@@ -12,7 +12,17 @@ class Login extends React.Component {
     render() {
         return (
             <div>
-                <h1>Login</h1>
+                <h2>Login</h2>
+                <p>Both server and client-side can handle POST requests.</p>
+                <ol>
+                    <li>Authentication required</li>
+                    <li>Accesses DB</li>
+                    <li>Admin can view users</li>
+                    <li>Artists and Clients can view their accounts</li>
+                    <li>The account can be a todo list, allow favorites, a spreadsheet of signed contracts</li>
+                    <li>Or more like a CRM</li>
+                </ol>
+                <p>The question is of course, would anyone use it? Better to incorporate useful tools than replace them. Focus of what is essential, on what they need but do not yet have.</p>
                 <form>
                     <input placeholder="name" type="name" />
                     <input placeholder="email" type="email" />

@@ -35,8 +35,8 @@ import * as serviceWorker from './serviceWorker';
 
 
 // API =====
-// TODO: API for the Client page, that is their hub. How do you easily choose, and sign an artist?
-// TODO: Build contact form contact.js 
+// TODO: API for the Client page: easily choose, and sign an artist?
+// TODO: Build POST request contact form contact.js 
 // NOTE: The preliminary CTA might be to get them to call
 
 

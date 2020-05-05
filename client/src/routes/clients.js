@@ -4,7 +4,8 @@ import {
     Link 
 } from 'react-router-dom';
 
-// const User = ({ match }) => <p>{match.params.id}</p>;
+// NOTE: artists.js and client.js may refactor as the same parameterized component. 
+
 
 class Clients extends React.Component {
     render() {

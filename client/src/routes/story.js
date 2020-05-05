@@ -4,27 +4,20 @@ import {
     Link 
 } from 'react-router-dom';
 
-// const User = ({ match }) => <p>{match.params.id}</p>;
+// NOTE: What is the PURPOSE of story.js? What do I want them to do as a result? How is conversion described?
+// NOTE: Do I want to separate STORY from BLOG? Might these be combined? No. These are components not pages or stories. Which brings up another thing: how should I compose components into stories? Scrolling, nesting? Composition is a UX decision. 
+// NOTE: Is story.js an about me page? UX
+// FIXME: How do I COMPOSE components?
+// TODO: UI story.js should show a Bootstrap component that presents content (text, media)
+
 
 class Story extends React.Component {
     render() {
-        const { params } = this.props.match;
         return (
             <div>
                 <h1>Page is Story</h1>
-                <p>User id: {params.id}</p>
-                <ul>
-                    <li>
-                        <Link to="/story/1">User 1 </Link>
-                    </li>
-                    <li>
-                        <Link to="/story/2">User 2 </Link>
-                    </li>
-                    <li>
-                        <Link to="/story/3">User 3 </Link>
-                    </li>
-                </ul>
-                {/* <Route path="/users/:id" component={User} /> */}
+                <p>Lorem ipsum</p>
+                
             </div>
         )
     }

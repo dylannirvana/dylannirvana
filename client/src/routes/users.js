@@ -1,30 +1,22 @@
 import React from 'react';
-import { 
-    // Route, 
-    Link 
-} from 'react-router-dom';
 
-// const User = ({ match }) => <p>{match.params.id}</p>;
+// NOTE: Internal admin page listing both artists and clients. Not public-facing. 
+// TODO: API MongoDB 
 
 class Users extends React.Component {
+
+    onSubmit = () => {
+        this.props.history.push('/')
+    }
     render() {
-        const { params } = this.props.match;
         return (
             <div>
-                <h1>Page is Users</h1>
-                <p>User id: {params.id}</p>
-                <ul>
-                    <li>
-                        <Link to="/users/1">User 1 </Link>
-                    </li>
-                    <li>
-                        <Link to="/users/2">User 2 </Link>
-                    </li>
-                    <li>
-                        <Link to="/users/3">User 3 </Link>
-                    </li>
-                </ul>
-                {/* <Route path="/users/:id" component={User} /> */}
+                <h1>Users</h1>
+                <form>
+                    <input placeholder="name" type="name" />
+                    <input placeholder="email" type="email" />
+                    <button onClick={this.onSubmit}>Submit</button>
+                </form>
             </div>
         )
     }

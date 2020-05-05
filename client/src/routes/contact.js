@@ -1,5 +1,8 @@
 import React from 'react';
 
+// NOTE: contact.js handles server-side POST requests. This might be the CTA: Contact directly.
+// TODO: Round trip the POST request
+
 class Contact extends React.Component {
 
     onSubmit = () => {

@@ -4,14 +4,17 @@ import {
     Link 
 } from 'react-router-dom';
 
-// const User = ({ match }) => <p>{match.params.id}</p>;
+// NOTE: artists.js and clients.js are handling parameterized GET requests. 
+// FIXME: Bootstrap gallery of Artists || Clients? Problem is, they do not yet have a roster. What do I present instead? By using media.js instead 
+// TODO: UI bootstrap gallery
+// TODO: API use parameterized GET request to go to profile.js (artist, client)
 
 class Artists extends React.Component {
     render() {
         const { params } = this.props.match;
         return (
             <div>
-                <h1>Page is Artists</h1>
+                <h1>Artist Roster</h1>
                 <p>User id: {params.id}</p>
                 <ul>
                     <li>

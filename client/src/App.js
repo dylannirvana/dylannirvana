@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import logo from './tonelogo.svg';
 import './App.css';
 
+// NOTE: App.js is currently placed in the scaffold like a controller, whereas the other components are in the routes directory. How do I want App.js to behave in relation to the other components?
+// TODO: API scrolling 
+// FIXME: Performance issues with logo
+
 class App extends Component {
   state = {
     response: '',
@@ -56,6 +60,7 @@ render() {
           <button type="submit">Submit</button>
         </form>
         <p>{this.state.responseToPost}</p>
+        {/* <Story /> */}
       </div>
     );
   }

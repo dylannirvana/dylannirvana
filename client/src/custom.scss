@@ -1,5 +1,22 @@
 // Override default variables before the import
-$body-bg: #000;
+// NOTE: Will do a LHS lookup but not RHS
+
+// CUSTOM VARS
+$grey: #282c34;
+$lt-grey: lighten($grey, 55%); // RHS vars have to be in scope
+$pink: pink;
+$dk-pink: darken($pink, 15%);
+
+// OVERRIDES
+$body-bg: $grey;
+$body-color: $lt-grey;
+
+$link-color: $pink !default;
+// $link-decoration:                         none !default;
+// $link-hover-color:                        darken($link-color, 15%) !default;
+$link-hover-color: $dk-pink;
+$link-hover-decoration:                   underline !default;
+
 
 // Import Bootstrap and its default variables
 // Note: You must prefix imports from node_modules with ~ as displayed below.

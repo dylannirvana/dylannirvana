@@ -1,26 +1,11 @@
-// // Override default variables before the import
-// // NOTE: Will do a LHS lookup but not RHS
-// // @import '~bootstrap/scss/bootstrap.scss';
-// // CUSTOM VARS
-// // $grey: #282c34;
-// // // $lt-grey: lighten($grey, 55%); // RHS vars have to be in scope
-// // // $pink: pink;
-// // // $dk-pink: darken($pink, 15%);
+// Override default variables before the import
+// NOTE: Will do a LHS lookup but not RHS
 
-// // // OVERRIDES
-// // Override default variables before the import
-$body-bg: #000;
-// // Import Bootstrap and its default variables
-@import '~bootstrap/scss/bootstrap.scss';
-// // $body-bg: $grey;
-// // $body-color: $lt-grey;
+/* make the customizations */
+$theme-colors: (
+    "info": tomato,
+    "danger": teal
+);
 
-// // $link-color: $pink !default;
-// // // $link-decoration:                         none !default;
-// // // $link-hover-color:                        darken($link-color, 15%) !default;
-// // $link-hover-color: $dk-pink;
-// // $link-hover-decoration:                   underline !default;
-
-
-// // Import Bootstrap and its default variables
-// // Note: You must prefix imports from node_modules with ~ as displayed below.
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";

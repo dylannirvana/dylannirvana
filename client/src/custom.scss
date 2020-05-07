@@ -8,6 +8,10 @@
 // // $dk-pink: darken($pink, 15%);
 
 // // OVERRIDES
+// Override default variables before the import
+$body-bg: #000;
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
 // $body-bg: $grey;
 // $body-color: $lt-grey;
 

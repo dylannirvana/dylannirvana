@@ -46,6 +46,7 @@ render() {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
+        <h1>CHANGE TO BE DETECTED</h1>
         </header>
         <p>{this.state.response}</p>
         <form onSubmit={this.handleSubmit}>

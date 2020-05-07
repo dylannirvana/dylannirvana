@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './tonelogo.svg';
+import logo from './tone150.png';
 import './App.css';
 
 // NOTE: App.js is currently placed in the scaffold like a controller, whereas the other components are in the routes directory. How do I want App.js to behave in relation to the other components?

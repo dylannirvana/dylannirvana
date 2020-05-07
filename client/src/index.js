@@ -10,8 +10,8 @@ import {
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from 'react-bootstrap/Nav'
 import Container from 'react-bootstrap/Container'
-// import './index.css';
-import './custom.scss'; // Works! Compiled by WebPack????
+import './index.css';
+// import './custom.scss'; // Works! Compiled by WebPack????
 import App from './App';
 import Story from './routes/story';
 import Media from './routes/media';

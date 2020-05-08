@@ -2,10 +2,27 @@
 // NOTE: Will do a LHS lookup but not RHS
 
 /* make the customizations */
-$theme-colors: (
-    "info": tomato,
-    "danger": teal
-);
+
+$gray: #282c34;
+$lt-gray: lighten($gray, 55%);
+
+$body-bg: $gray;
+$body-color: $lt-gray;
+$pink: pink;
+$dk-pink: darken($pink, 15%);
+$hot-pink: darken($pink, 25%);
+
+$link-color: $pink;
+$link-hover-color: $dk-pink !default;
+
+.active {
+    color: $hot-pink;
+  }
+
+// $theme-colors: (
+//     "info": tomato,
+//     "danger": teal
+// );
 
 /* import bootstrap to set changes */
 @import "~bootstrap/scss/bootstrap";

@@ -11,7 +11,13 @@ class Media extends React.Component {
     render() {
         return (
             <div>
-                <h2>Post actual news articles about your artist(s), vendors, etc.</h2> 
+                <h2>Post actual news articles about:</h2> 
+                <ol>
+                    <li>Your Artists</li>
+                    <li>Industry pros that you are working with</li>
+                    <li>VTG in the news</li>
+                </ol>
+                <p>Example responsive layout courtesy of Twitter Bootstrap</p>
                 <br /><h4>Placeholder is top news stories</h4>
                 
                 <News />

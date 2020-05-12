@@ -12,7 +12,7 @@ class Media extends React.Component {
         return (
             <div>
                 <h2>Post actual news articles about your artist(s), vendors, etc.</h2> 
-                <p>Placeholder is news about bitcoin</p>
+                <br /><h4>Placeholder is top news stories</h4>
                 
                 <News />
                 

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import NewSingle from './NewSingle';
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
 
 class News extends Component {
   constructor(props) {
@@ -26,15 +28,17 @@ class News extends Component {
 
   renderItems() {
     return this.state.news.map((item) => (
-      <NewSingle key={item.id} item={item} />
+      <NewSingle key={item.url} item={item} />
     ));
   }
 
   render() {
     return (
-      <ul>
+      <Container>
+        <Row>
         {this.renderItems()}
-      </ul>
+        </Row>
+      </Container>
     );
   }
 }

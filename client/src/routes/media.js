@@ -1,5 +1,5 @@
 import React from 'react';
-import News from '../components/News'
+import News from '../components/News';
 // import Audio from '../components/Audio'
 
 // NOTE: media.js takes the place of both artist and client rosters (which are galleries) until they get enough (artists and clients) to show. (Until then, artists.js and clients.js should not be accessible, but can be ready to go!) 
@@ -19,8 +19,9 @@ class Media extends React.Component {
                     <li>VTG in the news</li>
                 </ol>
                 <p>Example responsive layout courtesy of Twitter Bootstrap</p>
-                <br /><h4>Placeholder is top news stories</h4>
-                
+                <br />
+
+                <h4>Placeholder is top news stories</h4>
                 <News />
                 
             </div>

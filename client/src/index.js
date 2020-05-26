@@ -54,17 +54,17 @@ const routing = (
   <Router>
     <div>   
       <Nav className="justify-content-center" >
-        {/* <Nav.Item>
+        <Nav.Item>
           <NavLink className="nav-link" exact activeClassName="active" to="/">
             Work with Tone 
           </NavLink>         
-        </Nav.Item> */}
+        </Nav.Item>
 
-        <Nav.Item>
+        {/* <Nav.Item>
           <NavLink className="nav-link" exact activeClassName="active" to="/story">
             Work with Tone
           </NavLink>         
-        </Nav.Item>
+        </Nav.Item> */}
 
         <Nav.Item>
           <NavLink className="nav-link" activeClassName="active" to="/profile">
@@ -72,11 +72,11 @@ const routing = (
           </NavLink>         
         </Nav.Item>
 
-        <Nav.Item>
+        {/* <Nav.Item>
           <NavLink className="nav-link" activeClassName="active" to="/roster">
             Join our Artist Roster
           </NavLink>         
-        </Nav.Item>
+        </Nav.Item> */}
 
         <Nav.Item>
           <NavLink className="nav-link" exact activeClassName="active" to="/clients">

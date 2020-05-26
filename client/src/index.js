@@ -56,7 +56,7 @@ const routing = (
       <Nav className="justify-content-center" >
         <Nav.Item>
           <NavLink className="nav-link" exact activeClassName="active" to="/">
-            Work with Tone 
+            Tone 
           </NavLink>         
         </Nav.Item>
 
@@ -80,19 +80,19 @@ const routing = (
 
         <Nav.Item>
           <NavLink className="nav-link" exact activeClassName="active" to="/clients">
-            Who we work with
+            Clients
           </NavLink>         
         </Nav.Item>
 
         <Nav.Item>
           <NavLink className="nav-link" activeClassName="active" to="/media">
-            News and Social Media
+            Media
           </NavLink>         
         </Nav.Item>
 
       <Nav.Item>
           <NavLink className="nav-link" exact activeClassName="active" to="/contact">
-            Contact us
+            Contact
           </NavLink>         
         </Nav.Item>
       </Nav>

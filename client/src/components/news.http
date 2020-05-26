@@ -1,3 +1,4 @@
 # Test REST API calls here.
-GET https://newsapi.org/v2/top-headlines?country=us&apiKey=b1d3b456717c4a2e921dd4cb0379e828 
+# GET https://newsapi.org/v2/top-headlines?country=us&apiKey=b1d3b456717c4a2e921dd4cb0379e828 
 
+GET http://newsapi.org/v2/top-headlines?sources=billboard&apiKey=b1d3b456717c4a2e921dd4cb0379e828

@@ -9,7 +9,7 @@ import {
 // TODO: UI bootstrap gallery
 // TODO: API use parameterized GET request to go to profile.js (artist, client)
 
-class Artists extends React.Component {
+class Roster extends React.Component {
     render() {
         const { params } = this.props.match;
         return (
@@ -19,13 +19,13 @@ class Artists extends React.Component {
                 <p>User id: {params.id}</p>
                 <ul>
                     <li>
-                        <Link to="/artists/1">User 1 </Link>
+                        <Link to="/roster/1">User 1 </Link>
                     </li>
                     <li>
-                        <Link to="/artists/2">User 2 </Link>
+                        <Link to="/roster/2">User 2 </Link>
                     </li>
                     <li>
-                        <Link to="/artists/3">User 3 </Link>
+                        <Link to="/roster/3">User 3 </Link>
                     </li>
                 </ul>
                 {/* <Route path="/users/:id" component={User} /> */}
@@ -34,4 +34,4 @@ class Artists extends React.Component {
     }
 }
 
-export default Artists;
+export default Roster;

@@ -47,7 +47,9 @@ render() {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
         </header>
-        <p>{this.state.response}</p>
+        
+        {/* Server test */}
+        {/* <p>{this.state.response}</p>
         <form onSubmit={this.handleSubmit}>
           <p>
             <strong>Post to Server:</strong>
@@ -59,7 +61,8 @@ render() {
           />
           <button type="submit">Submit</button>
         </form>
-        <p>{this.state.responseToPost}</p>
+        <p>{this.state.responseToPost}</p> */}
+        
         {/* <Story /> */}
       </div>
     );

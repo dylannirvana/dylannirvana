@@ -21,7 +21,7 @@ class Media extends React.Component {
                 <p>Example responsive layout courtesy of Twitter Bootstrap</p>
                 <br />
 
-                <h4>Placeholder is top news stories</h4>
+                <h4>News about clients, Tone, Artists, and Industry</h4>
                 <News />
                 
             </div>

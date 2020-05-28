@@ -13,10 +13,9 @@ import Container from 'react-bootstrap/Container'
 // import './index.css';
 import './custom.scss'; // Works! Compiled by WebPack????
 import App from './App';
-import Story from './routes/story';
+import Story from './components/Story';
 import Media from './routes/media';
-import Profile from './routes/profile';
-import Roster from './routes/roster';
+import Artists from './routes/artists';
 import Clients from './routes/clients';
 import Contact from './routes/contact';
 import Notfound from './notfound';
@@ -60,23 +59,11 @@ const routing = (
           </NavLink>         
         </Nav.Item>
 
-        {/* <Nav.Item>
-          <NavLink className="nav-link" exact activeClassName="active" to="/story">
-            Work with Tone
-          </NavLink>         
-        </Nav.Item> */}
-
         <Nav.Item>
-          <NavLink className="nav-link" activeClassName="active" to="/profile">
-            Featured Artist
+          <NavLink className="nav-link" activeClassName="active" to="/artists">
+            Artists
           </NavLink>         
         </Nav.Item>
-
-        {/* <Nav.Item>
-          <NavLink className="nav-link" activeClassName="active" to="/roster">
-            Join our Artist Roster
-          </NavLink>         
-        </Nav.Item> */}
 
         <Nav.Item>
           <NavLink className="nav-link" exact activeClassName="active" to="/clients">
@@ -101,9 +88,8 @@ const routing = (
       <Switch>
         <Route exact path="/" component={App} />
         <Route path="/story" component={Story} />
-        <Route path="/profile" component={Profile} />
-        <Route path="/roster/:id" component={Roster} />
-        <Route path="/roster" component={Roster} />
+        <Route path="/artists/:id" component={Artists} />
+        <Route path="/artists" component={Artists} />
         <Route path="/clients/:id" component={Clients} />
         <Route path="/clients" component={Clients} />
         <Route path="/media" component={Media} />

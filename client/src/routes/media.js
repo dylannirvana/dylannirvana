@@ -12,7 +12,7 @@ class Media extends React.Component {
     render() {
         return (
             <div>
-                <h2>Post actual news articles about:</h2> 
+                <h2>Media</h2> 
                 <ol>
                     <li>Your Artists</li>
                     <li>Industry pros that you are working with</li>

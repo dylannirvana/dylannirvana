@@ -13,7 +13,6 @@ import Container from 'react-bootstrap/Container'
 // import './index.css';
 import './custom.scss'; // Works! Compiled by WebPack????
 import App from './App';
-import Story from './components/Story';
 import Media from './routes/media';
 import Artists from './routes/artists';
 import Clients from './routes/clients';
@@ -87,7 +86,6 @@ const routing = (
       <Container>
       <Switch>
         <Route exact path="/" component={App} />
-        <Route path="/story" component={Story} />
         <Route path="/artists/:id" component={Artists} />
         <Route path="/artists" component={Artists} />
         <Route path="/clients/:id" component={Clients} />

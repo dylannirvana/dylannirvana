@@ -3,9 +3,9 @@ import {
     // Route, 
     Link 
 } from 'react-router-dom';
-import Video from '../components/Video';
-import Tracks from '../components/Tracks';
-import Stats from '../components/Stats';
+// import Video from '../components/Video';
+// import Tracks from '../components/Tracks';
+// import Stats from '../components/Stats';
 
 // NOTE: artists.js and client.js may refactor as the same parameterized component. 
 
@@ -31,9 +31,9 @@ class Artists extends React.Component {
                 </ul>
                 {/* <Route path="/users/:id" component={User} /> */}
 
-                <Video />
+                {/* <Video />
                 <Tracks />
-                <Stats />
+                <Stats /> */}
 
             </div>
         )

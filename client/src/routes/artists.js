@@ -3,20 +3,21 @@ import {
     // Route, 
     Link 
 } from 'react-router-dom';
+import Video from '../components/Video';
+import Tracks from '../components/Tracks';
+import Stats from '../components/Stats';
 
-// NOTE: artists.js and clients.js are handling parameterized GET requests. 
-// FIXME: Bootstrap gallery of Artists || Clients? Problem is, they do not yet have a roster. What do I present instead? By using media.js instead 
-// TODO: UI bootstrap gallery
-// TODO: API use parameterized GET request to go to profile.js (artist, client)
+// NOTE: artists.js and client.js may refactor as the same parameterized component. 
+
 
 class Artists extends React.Component {
     render() {
         const { params } = this.props.match;
         return (
             <div>
-                <h2>Artist Roster</h2>
+                <h2>Our Artists</h2>
                 <p>Server is handling GET requests. Select from menu below. Or type in arbitrary number in address bar (after /).</p>
-                <p>User id: {params.id}</p>
+                <p>User id: {params.id}</p>                
                 <ul>
                     <li>
                         <Link to="/artists/1">User 1 </Link>
@@ -29,6 +30,11 @@ class Artists extends React.Component {
                     </li>
                 </ul>
                 {/* <Route path="/users/:id" component={User} /> */}
+
+                <Video />
+                <Tracks />
+                <Stats />
+
             </div>
         )
     }

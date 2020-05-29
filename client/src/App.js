@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './tone150.png';
 import './App.css';
+import Story from './components/Story'
 
 // NOTE: App.js is currently placed in the scaffold like a controller, whereas the other components are in the routes directory. How do I want App.js to behave in relation to the other components?
 // TODO: API scrolling 
@@ -47,7 +48,9 @@ render() {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
         </header>
-        <p>{this.state.response}</p>
+        
+        {/* Server test */}
+        {/* <p>{this.state.response}</p>
         <form onSubmit={this.handleSubmit}>
           <p>
             <strong>Post to Server:</strong>
@@ -59,8 +62,9 @@ render() {
           />
           <button type="submit">Submit</button>
         </form>
-        <p>{this.state.responseToPost}</p>
-        {/* <Story /> */}
+        <p>{this.state.responseToPost}</p> */}
+        
+        <Story />
       </div>
     );
   }

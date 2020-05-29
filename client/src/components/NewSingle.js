@@ -14,7 +14,7 @@ const NewSingle = ({item}) => (
          <Card >
         <Card.Img variant="top" src={item.urlToImage} />
         <Card.Body>
-            <Card.Link href={item.url}>
+            <Card.Link href={item.url} target='_blank' >
                 <Card.Title>{item.title}</Card.Title>
             </Card.Link>
             <Card.Text>

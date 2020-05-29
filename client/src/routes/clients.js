@@ -14,7 +14,8 @@ class Clients extends React.Component {
             <div>
                 <h2>Our Clients</h2>
                 <p>Server is handling GET requests. Select from menu below. Or type in arbitrary number in address bar (after /).</p>
-                <p>User id: {params.id}</p>                <ul>
+                <p>User id: {params.id}</p>                
+                <ul>
                     <li>
                         <Link to="/clients/1">User 1 </Link>
                     </li>

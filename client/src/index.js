@@ -96,6 +96,37 @@ const routing = (
       </Switch> 
       </Container>
     
+      <Nav className="justify-content-center" >
+        <Nav.Item>
+          <NavLink className="nav-link" exact activeClassName="active" to="/">
+            Tone 
+          </NavLink>         
+        </Nav.Item>
+
+        <Nav.Item>
+          <NavLink className="nav-link" activeClassName="active" to="/artists">
+            Artists
+          </NavLink>         
+        </Nav.Item>
+
+        <Nav.Item>
+          <NavLink className="nav-link" exact activeClassName="active" to="/clients">
+            Clients
+          </NavLink>         
+        </Nav.Item>
+
+        <Nav.Item>
+          <NavLink className="nav-link" activeClassName="active" to="/media">
+            Media
+          </NavLink>         
+        </Nav.Item>
+
+      <Nav.Item>
+          <NavLink className="nav-link" exact activeClassName="active" to="/contact">
+            Contact
+          </NavLink>         
+        </Nav.Item>
+      </Nav>
     </div>
   </Router>
 )

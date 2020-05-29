@@ -1,7 +1,14 @@
 import React, { Component } from 'react';
 import logo from './tone150.png';
 import './App.css';
-import Story from './components/Story'
+import Story from './components/Story';
+import Contact from './routes/contact';
+// import { Link } from 'react-router';
+// import { 
+//   NavLink,
+// } from 'react-router-dom';
+// import Nav from 'react-bootstrap/Nav';
+
 
 // NOTE: App.js is currently placed in the scaffold like a controller, whereas the other components are in the routes directory. How do I want App.js to behave in relation to the other components?
 // TODO: API scrolling 
@@ -65,6 +72,16 @@ render() {
         <p>{this.state.responseToPost}</p> */}
         
         <Story />
+
+        {/* <Nav.Item>
+          <NavLink className="nav-link" to="./contact">
+            Contact
+          </NavLink>         
+        </Nav.Item> */}
+
+        <Contact />
+
+
       </div>
     );
   }

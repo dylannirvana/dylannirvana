@@ -9,6 +9,9 @@ import {
 } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from 'react-bootstrap/Nav'
+// import Card from 'react-bootstrap/Card'
+// import Button from 'react-bootstrap/Button'
+
 import Container from 'react-bootstrap/Container'
 // import './index.css';
 import './custom.scss'; // Works! Compiled by WebPack????
@@ -95,7 +98,21 @@ const routing = (
         <Route component={Notfound} />
       </Switch> 
       </Container>
+
+      {/* BOOTSTRAP */}
+      {/* FOOTER */}
+      {/* <Card>
+        <Card.Header>Featured</Card.Header>
+        <Card.Body>
+          <Card.Title>Special title treatment</Card.Title>
+          <Card.Text>
+            With supporting text below as a natural lead-in to additional content.
+          </Card.Text>
+          <Button variant="primary">Go somewhere</Button>
+        </Card.Body>
+      </Card> */}
     
+    {/* FOOTER NAV */}
       <Nav className="justify-content-center" >
         <Nav.Item>
           <NavLink className="nav-link" exact activeClassName="active" to="/">

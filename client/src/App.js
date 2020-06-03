@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 // import logo from './tone150.png';
 import video from './logoDrawOn.mp4'
 import Container from 'react-bootstrap/Container'
-// import ResponsiveEmbed from 'react-bootstrap/ResponsiveEmbed'
+import ResponsiveEmbed from 'react-bootstrap/ResponsiveEmbed'
 import './App.css';
 import Story from './components/Story';
 import Contact from './routes/contact';
@@ -57,10 +57,17 @@ render() {
       <div className="App">
         <header className="App-header">
           {/* <img src={logo} className="App-logo" alt="logo" /> */}
-         {/* <video src={video} style={{objectFit: "cover" }} /> */}
-         <div className="embed-responsive embed-responsive-16by9">
-          <embed className="embed-responsive-item" src={video} style={{objectFit:"cover"}} allowFullScreen></embed>
-        </div>
+          {/* <video src={video} style={{objectFit: "cover" }} /> */}
+          {/* <div className="embed-responsive embed-responsive-16by9">
+            <embed className="embed-responsive-item" src={video} style={{objectFit:"fill"}} allowFullScreen></embed>
+          </div> */}
+
+          <div style={{ width: "100%", height: 'auto' }}>
+            <ResponsiveEmbed aspectRatio="16by9">
+              <embed type="video/mp4" autoPlay={true} src={video} allowFullScreen style={{objectFit: "fill"}} />
+            </ResponsiveEmbed>
+          </div>
+
         </header>
         
         {/* Server test */}

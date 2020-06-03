@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-import logo from './tone150.png';
+// import logo from './tone150.png';
+import video from './logoDrawOn.mp4'
+import Container from 'react-bootstrap/Container'
+// import ResponsiveEmbed from 'react-bootstrap/ResponsiveEmbed'
 import './App.css';
 import Story from './components/Story';
 import Contact from './routes/contact';
@@ -53,7 +56,11 @@ render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          {/* <img src={logo} className="App-logo" alt="logo" /> */}
+         {/* <video src={video} style={{objectFit: "cover" }} /> */}
+         <div className="embed-responsive embed-responsive-16by9">
+          <embed className="embed-responsive-item" src={video} style={{objectFit:"cover"}} allowFullScreen></embed>
+        </div>
         </header>
         
         {/* Server test */}
@@ -71,7 +78,10 @@ render() {
         </form>
         <p>{this.state.responseToPost}</p> */}
         
-        <Story />
+        <Container>
+          <Story />
+          <Contact />
+        </Container>
 
         {/* <Nav.Item>
           <NavLink className="nav-link" to="./contact">
@@ -79,7 +89,6 @@ render() {
           </NavLink>         
         </Nav.Item> */}
 
-        <Contact />
 
 
       </div>

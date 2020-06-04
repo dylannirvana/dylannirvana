@@ -57,6 +57,7 @@ render() {
         <header className="App-header">
           {/* <img src={logo} className="App-logo" alt="logo" /> */}
           
+            {/* COVER VDO */}
             <video src={video} autoPlay muted loop style={{
               type: 'video/mp4',
               objectFit: 'cover',
@@ -65,21 +66,12 @@ render() {
               height: '100vh',
               }} />
 
-              {/* <video autoPlay width="250">
-                <source src={video}
-                      type="video/mp4" />
-              </video> */}
-
-
         </header>
-        
-       
-        
+            
         <Container>
           <Story />
           <Contact />
         </Container>
-
 
       </div>
     );

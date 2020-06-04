@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "body-parser": "^1.18.3",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "react-video-cover": "^1.2.2"
   },
   "devDependencies": {
     "concurrently": "^4.0.1",

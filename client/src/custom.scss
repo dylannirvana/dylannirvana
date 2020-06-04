@@ -26,3 +26,19 @@ $link-hover-color: $dk-pink !default;
 
 /* import bootstrap to set changes */
 @import "~bootstrap/scss/bootstrap";
+
+.section {
+  padding-top: 4rem;
+}
+
+.heading {
+  padding-top: 1rem;
+}
+
+// FORMS
+form {
+  text-align: left !important;
+}
+.form-label {
+  padding-top: .5rem;
+}

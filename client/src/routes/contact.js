@@ -15,9 +15,9 @@ class Contact extends React.Component {
     render() {
         return (
             <Container>
-                <h2>Contact</h2>
-                <h5>Let us help you find what you are looking for</h5>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut nulla eaque cum laudantium enim! Labore aliquid numquam rem perferendis, harum excepturi veniam eos eligendi blanditiis corrupti soluta reprehenderit qui voluptate.</p>
+                <h2>Contact us</h2>
+                <h5>This is the Call To Action. </h5>
+                <p>"Let us help you find what you are looking for". We have to make this very easy, targeted and compelling. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut nulla eaque cum laudantium enim! Labore aliquid numquam rem perferendis, harum excepturi veniam eos eligendi blanditiis corrupti soluta reprehenderit qui voluptate.</p>
                 {/* <p>Server is handling POST requests</p> */}
                 {/* <form>
                     <input placeholder="name" type="name" />
@@ -42,14 +42,14 @@ class Contact extends React.Component {
                     <Form.Row>
                         <Form.Group as={Col} controlId="formGridEmail">
                         <Form.Label>Email</Form.Label>
-                        <Form.Control type="email" placeholder="Enter email" />
+                        <Form.Control type="email" placeholder="What's your email?" />
                         </Form.Group>
                     </Form.Row>
 
                     <Form.Row>
                         <Form.Group as={Col} controlId="exampleForm.ControlTextarea1">
                             <Form.Label>Message</Form.Label>
-                            <Form.Control as="textarea" rows="3"/>
+                            <Form.Control as="textarea" placeholder="How can we help you?" rows="3"/>
                         </Form.Group>
                     </Form.Row>
 
@@ -78,8 +78,6 @@ class Contact extends React.Component {
                 <br />
                 <br />
                 
-                <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-
             </Container>
         )
     }

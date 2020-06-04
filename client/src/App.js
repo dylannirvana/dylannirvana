@@ -57,7 +57,7 @@ render() {
         <header className="App-header">
           {/* <img src={logo} className="App-logo" alt="logo" /> */}
           
-            <video src={video} autoPlay loop style={{
+            <video src={video} autoPlay muted loop style={{
               type: 'video/mp4',
               objectFit: 'cover',
               overflow: 'hidden',

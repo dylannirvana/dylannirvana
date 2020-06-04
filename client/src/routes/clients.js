@@ -3,6 +3,7 @@ import {
     // Route, 
     Link 
 } from 'react-router-dom';
+import Container from 'react-bootstrap/Container'
 
 // NOTE: artists.js and client.js may refactor as the same parameterized component. 
 
@@ -11,7 +12,7 @@ class Clients extends React.Component {
     render() {
         const { params } = this.props.match;
         return (
-            <div>
+            <Container>
                 <h2>Our Clients</h2>
                 <p>Server is handling GET requests. Select from menu below. Or type in arbitrary number in address bar (after /).</p>
                 <p>User id: {params.id}</p>                
@@ -27,7 +28,7 @@ class Clients extends React.Component {
                     </li>
                 </ul>
                 {/* <Route path="/users/:id" component={User} /> */}
-            </div>
+            </Container>
         )
     }
 }

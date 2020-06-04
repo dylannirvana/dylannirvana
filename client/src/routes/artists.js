@@ -6,6 +6,7 @@ import {
 import Video from '../components/Video';
 import Tracks from '../components/Tracks';
 import Stats from '../components/Stats';
+import Container from 'react-bootstrap/Container'
 
 // NOTE: artists.js and client.js may refactor as the same parameterized component. 
 
@@ -14,7 +15,7 @@ class Artists extends React.Component {
     render() {
         const { params } = this.props.match;
         return (
-            <div>
+            <Container>
                 <h2>Our Artists</h2>
                 <p>Server is handling GET requests. Select from menu below. Or type in arbitrary number in address bar (after /).</p>
                 <p>User id: {params.id}</p>                
@@ -35,7 +36,7 @@ class Artists extends React.Component {
                 <Tracks />
                 <Stats />
 
-            </div>
+            </Container>
         )
     }
 }

@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
-import logo from './tone150.png';
+// import logo from './tone150.png';
+import video from './logoDrawOn.mp4'
+import Container from 'react-bootstrap/Container'
 import './App.css';
 import Story from './components/Story';
 import Contact from './routes/contact';
+// import VideoBackground from './components/VideoBackground';
 // import { Link } from 'react-router';
 // import { 
 //   NavLink,
 // } from 'react-router-dom';
-// import Nav from 'react-bootstrap/Nav';
 
 
 // NOTE: App.js is currently placed in the scaffold like a controller, whereas the other components are in the routes directory. How do I want App.js to behave in relation to the other components?
@@ -53,33 +55,30 @@ render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          {/* <img src={logo} className="App-logo" alt="logo" /> */}
+          
+            <video src={video} autoPlay muted loop style={{
+              type: 'video/mp4',
+              objectFit: 'cover',
+              overflow: 'hidden',
+              width: '100vw',
+              height: '100vh',
+              }} />
+
+              {/* <video autoPlay width="250">
+                <source src={video}
+                      type="video/mp4" />
+              </video> */}
+
+
         </header>
         
-        {/* Server test */}
-        {/* <p>{this.state.response}</p>
-        <form onSubmit={this.handleSubmit}>
-          <p>
-            <strong>Post to Server:</strong>
-          </p>
-          <input
-            type="text"
-            value={this.state.post}
-            onChange={e => this.setState({ post: e.target.value })}
-          />
-          <button type="submit">Submit</button>
-        </form>
-        <p>{this.state.responseToPost}</p> */}
+       
         
-        <Story />
-
-        {/* <Nav.Item>
-          <NavLink className="nav-link" to="./contact">
-            Contact
-          </NavLink>         
-        </Nav.Item> */}
-
-        <Contact />
+        <Container>
+          <Story />
+          <Contact />
+        </Container>
 
 
       </div>

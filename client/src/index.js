@@ -12,7 +12,7 @@ import Nav from 'react-bootstrap/Nav'
 // import Card from 'react-bootstrap/Card'
 // import Button from 'react-bootstrap/Button'
 
-import Container from 'react-bootstrap/Container'
+// import Container from 'react-bootstrap/Container'
 // import './index.css';
 import './custom.scss'; // Works! Compiled by WebPack????
 import App from './App';
@@ -22,34 +22,6 @@ import Clients from './routes/clients';
 import Contact from './routes/contact';
 import Notfound from './notfound';
 import * as serviceWorker from './serviceWorker';
-
-// Routing =====
-// DONE: Move route files to routes directory. Update path index.js
-// DONE: Sitemap Flowmapp
-// DONE: touch new placeholders and route them: STORY, ARTISTS, CLIENT
-// TODO: Scrolling https://www.npmjs.com/package/react-router-scroll || react docs. 
-// TODO: New navigation
-
-
-// UI =====
-// DONE: Remove styling from App.js and add to index.js
-// DONE: Add Bootstrap styles
-// DONE: client/src/custom.scss
-// DONE: Add Bootstrap Navbar to router in index.js
-// TODO: SASS stylesheets
-// TODO: Navigation
-// TODO: Layout
-
-
-// API =====
-// TODO: API for the Client page: easily choose, and sign an artist?
-// TODO: Build POST request contact form contact.js 
-// TODO: Instagram API
-// TODO: Twitter 
-// DONE: News 
-// TODO: YouTube
-// TODO: Spotify
-
 
 const routing = (
   <Router>
@@ -86,7 +58,7 @@ const routing = (
         </Nav.Item>
       </Nav>
 
-      <Container>
+      {/* <Container> */}
       <Switch>
         <Route exact path="/" component={App} />
         <Route path="/artists/:id" component={Artists} />
@@ -97,7 +69,7 @@ const routing = (
         <Route path="/contact" component={Contact} />
         <Route component={Notfound} />
       </Switch> 
-      </Container>
+      {/* </Container> */}
 
       {/* BOOTSTRAP */}
       {/* FOOTER */}
@@ -113,7 +85,7 @@ const routing = (
       </Card> */}
     
     {/* FOOTER NAV */}
-      <Nav className="justify-content-center" >
+      {/* <Nav className="justify-content-center" >
         <Nav.Item>
           <NavLink className="nav-link" exact activeClassName="active" to="/">
             Tone 
@@ -143,7 +115,7 @@ const routing = (
             Contact
           </NavLink>         
         </Nav.Item>
-      </Nav>
+      </Nav> */}
     </div>
   </Router>
 )
@@ -157,3 +129,31 @@ ReactDOM.render(
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+
+// Routing =====
+// DONE: Move route files to routes directory. Update path index.js
+// DONE: Sitemap Flowmapp
+// DONE: touch new placeholders and route them: STORY, ARTISTS, CLIENT
+// TODO: Scrolling https://www.npmjs.com/package/react-router-scroll || react docs. 
+// TODO: New navigation
+
+
+// UI =====
+// DONE: Remove styling from App.js and add to index.js
+// DONE: Add Bootstrap styles
+// DONE: client/src/custom.scss
+// DONE: Add Bootstrap Navbar to router in index.js
+// TODO: SASS stylesheets
+// TODO: Navigation
+// TODO: Layout
+
+
+// API =====
+// TODO: API for the Client page: easily choose, and sign an artist?
+// TODO: Build POST request contact form contact.js 
+// TODO: Instagram API
+// TODO: Twitter 
+// DONE: News 
+// TODO: YouTube
+// TODO: Spotify
+

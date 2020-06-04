@@ -2,6 +2,7 @@ import React from 'react';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button'
 import Col from 'react-bootstrap/Col'
+import Container from 'react-bootstrap/Container'
 
 // NOTE: contact.js handles server-side POST requests. This might be the CTA: Contact directly.
 // TODO: Round trip the POST request
@@ -13,7 +14,7 @@ class Contact extends React.Component {
     }
     render() {
         return (
-            <div>
+            <Container>
                 <h2>Contact</h2>
                 <h5>Let us help you find what you are looking for</h5>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut nulla eaque cum laudantium enim! Labore aliquid numquam rem perferendis, harum excepturi veniam eos eligendi blanditiis corrupti soluta reprehenderit qui voluptate.</p>
@@ -79,7 +80,7 @@ class Contact extends React.Component {
                 
                 <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
 
-            </div>
+            </Container>
         )
     }
 }

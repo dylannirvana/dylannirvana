@@ -1,22 +1,38 @@
 // Override default variables before the import
 // NOTE: Will do a LHS lookup but not RHS
 
-/* make the customizations */
+// VARIABLES
+
+// COLORS 
+// Triadic
+$mediumred: #961120;
+$yellow: #E3DB19;
+$brightred: #E3021C;
+$skyblue: #19A1E3;
+$blue: #096996;
+
+// Monochromatic
+$darkred: #63010C;
+$lightred: #E8485A;
+$maroon: #631F27;
+$ketchup: #B00216;
 
 $gray: #282c34;
+
 $lt-gray: lighten($gray, 55%);
 
+// ELEMENTS
 $body-bg: $gray;
 $body-color: $lt-gray;
-$pink: pink;
-$dk-pink: darken($pink, 15%);
-$hot-pink: darken($pink, 25%);
+// $pink: pink;
+$dk-yellow: darken($yellow, 20%);
+$lt-yellow: lighten($yellow, 40%);
 
-$link-color: $pink;
-$link-hover-color: $dk-pink !default;
+$link-color: $lt-yellow;
+$link-hover-color: $skyblue !default;
 
 .active {
-    color: $hot-pink;
+    color: $yellow;
   }
 
 // $theme-colors: (
@@ -42,3 +58,5 @@ form {
 .form-label {
   padding-top: .5rem;
 }
+
+

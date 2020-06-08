@@ -9,6 +9,7 @@ import {
 } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from 'react-bootstrap/Nav'
+import Navbar from 'react-bootstrap/Navbar'
 // import Card from 'react-bootstrap/Card'
 // import Button from 'react-bootstrap/Button'
 
@@ -27,37 +28,43 @@ import * as serviceWorker from './serviceWorker';
 const routing = (
   <Router>
     <div>   
-      <Nav className="justify-content-center" >
-        <Nav.Item>
-          <NavLink className="nav-link" exact activeClassName="active" to="/">
-            Tone Artist Development 
-          </NavLink>         
-        </Nav.Item>
+      <Navbar expand="md">
+        <Navbar.Toggle aria-controls="theNavbar" />
+        <Navbar.Collapse className="justify-content-center"  id="theNavbar">
+          <Nav.Item>
+            <NavLink className="nav-link" exact activeClassName="active" to="/">
+            Artist Management
+              
+            </NavLink>         
+          </Nav.Item>
 
-        <Nav.Item>
-          <NavLink className="nav-link" activeClassName="active" to="/artists">
-            Artists
-          </NavLink>         
-        </Nav.Item>
+          <Nav.Item>
+            <NavLink className="nav-link" activeClassName="active" to="/artists">
+              Artists
+            </NavLink>         
+          </Nav.Item>
 
-        <Nav.Item>
-          <NavLink className="nav-link" exact activeClassName="active" to="/clients">
-            Clients
-          </NavLink>         
-        </Nav.Item>
+          <Nav.Item>
+            <NavLink className="nav-link" exact activeClassName="active" to="/clients">
+              Clients
+            </NavLink>         
+          </Nav.Item>
 
-        <Nav.Item>
-          <NavLink className="nav-link" activeClassName="active" to="/media">
-            Media
-          </NavLink>         
-        </Nav.Item>
+          <Nav.Item>
+            <NavLink className="nav-link" activeClassName="active" to="/media">
+              Media
+            </NavLink>         
+          </Nav.Item>
 
-      <Nav.Item>
-          <NavLink className="nav-link" exact activeClassName="active" to="/contact">
-            Contact
-          </NavLink>         
-        </Nav.Item>
-      </Nav>
+          <Nav.Item>
+            <NavLink className="nav-link" exact activeClassName="active" to="/contact">
+              Contact
+            </NavLink>         
+          </Nav.Item>
+
+        </Navbar.Collapse>
+
+      </Navbar>
 
       {/* <Container> */}
       <Switch>

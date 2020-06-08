@@ -59,4 +59,12 @@ form {
   padding-top: .5rem;
 }
 
-
+// Example: Hide starting at `min-width: 0`, and then show at the `sm` breakpoint
+.brand {
+  display: none;
+}
+@include media-breakpoint-up(sm) {
+  .brand {
+    display: block;
+  }
+}

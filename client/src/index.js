@@ -30,7 +30,7 @@ const routing = (
       <Nav className="justify-content-center" >
         <Nav.Item>
           <NavLink className="nav-link" exact activeClassName="active" to="/">
-            VTG Artist Development 
+            Tone Artist Development 
           </NavLink>         
         </Nav.Item>
 

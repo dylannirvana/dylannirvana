@@ -93,14 +93,16 @@ const routing = (
       </Card> */}
     
     {/* FOOTER NAV */}
-      {/* <Nav className="justify-content-center" >
-        <Nav.Item>
-          <NavLink className="nav-link" exact activeClassName="active" to="/">
+      <Nav className="justify-content-center footer" >
+        <Nav.Item >
+
+          <p className="tinytype">Copyright 2020</p>
+          {/* <NavLink className="nav-link" exact activeClassName="active" to="/">
             Tone 
-          </NavLink>         
+          </NavLink>          */}
         </Nav.Item>
 
-        <Nav.Item>
+        {/* <Nav.Item>
           <NavLink className="nav-link" activeClassName="active" to="/artists">
             Artists
           </NavLink>         
@@ -118,12 +120,13 @@ const routing = (
           </NavLink>         
         </Nav.Item>
 
-      <Nav.Item>
+        <Nav.Item>
           <NavLink className="nav-link" exact activeClassName="active" to="/contact">
             Contact
           </NavLink>         
-        </Nav.Item>
-      </Nav> */}
+        </Nav.Item> */}
+        
+      </Nav>
     </div>
   </Router>
 )

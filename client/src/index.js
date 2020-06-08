@@ -16,6 +16,7 @@ import Nav from 'react-bootstrap/Nav'
 // import './index.css';
 import './custom.scss'; // Works! Compiled by WebPack????
 import App from './App';
+// import logo from './tone150.png';
 import Media from './routes/media';
 import Artists from './routes/artists';
 import Clients from './routes/clients';
@@ -29,7 +30,7 @@ const routing = (
       <Nav className="justify-content-center" >
         <Nav.Item>
           <NavLink className="nav-link" exact activeClassName="active" to="/">
-            Tone 
+            VTG Artist Development 
           </NavLink>         
         </Nav.Item>
 

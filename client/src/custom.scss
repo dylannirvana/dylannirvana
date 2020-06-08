@@ -20,6 +20,7 @@ $ketchup: #B00216;
 $gray: #282c34;
 
 $lt-gray: lighten($gray, 55%);
+$dk-gray: darken($gray, 10%);
 
 // ELEMENTS
 $body-bg: $gray;
@@ -35,6 +36,9 @@ $link-hover-color: $skyblue !default;
     color: $yellow;
   }
 
+  .footer {
+    background-color: $dk-gray;
+  }
 // $theme-colors: (
 //     "info": tomato,
 //     "danger": teal
@@ -59,12 +63,17 @@ form {
   padding-top: .5rem;
 }
 
+.tinytype {
+  font-size: .128rem;
+  padding-top: .8rem;
+}
+
 // Example: Hide starting at `min-width: 0`, and then show at the `sm` breakpoint
-.brand {
-  display: none;
-}
-@include media-breakpoint-up(sm) {
-  .brand {
-    display: block;
-  }
-}
+// .brand {
+//   display: none;
+// }
+// @include media-breakpoint-up(sm) {
+//   .brand {
+//     display: block;
+//   }
+// }

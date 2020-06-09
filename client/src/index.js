@@ -101,40 +101,25 @@ const routing = (
       </Card> */}
     
     {/* FOOTER NAV */}
-      <Nav className="justify-content-center footer" >
-        <Nav.Item >
 
+    <Navbar fixed="bottom" className="footer mt-auto py-3">
+      <div className="container">
+        <span className="text-muted">Place sticky footer content here.</span>
+      </div>
+    </Navbar>
+    
+      {/* <Nav className="justify-content-center footer" >
+        <Nav.Item >
           <p className="tinytype">Copyright 2020</p>
-          {/* <NavLink className="nav-link" exact activeClassName="active" to="/">
-            Tone 
-          </NavLink>          */}
-        </Nav.Item>
+        </Nav.Item> */}
 
         {/* <Nav.Item>
           <NavLink className="nav-link" activeClassName="active" to="/artists">
             Artists
           </NavLink>         
-        </Nav.Item>
-
-        <Nav.Item>
-          <NavLink className="nav-link" exact activeClassName="active" to="/clients">
-            Clients
-          </NavLink>         
-        </Nav.Item>
-
-        <Nav.Item>
-          <NavLink className="nav-link" activeClassName="active" to="/media">
-            Media
-          </NavLink>         
-        </Nav.Item>
-
-        <Nav.Item>
-          <NavLink className="nav-link" exact activeClassName="active" to="/contact">
-            Contact
-          </NavLink>         
         </Nav.Item> */}
-        
-      </Nav>
+      {/* </Nav> */}
+
     </div>
   </Router>
 )

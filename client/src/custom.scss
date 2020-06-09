@@ -19,6 +19,7 @@ $ketchup: #B00216;
 
 $gray: #282c34;
 
+$dk-sky: darken($skyblue, 5%);
 $lt-gray: lighten($gray, 55%);
 $dk-gray: darken($gray, 10%);
 
@@ -30,7 +31,7 @@ $dk-yellow: darken($yellow, 20%);
 $lt-yellow: lighten($yellow, 40%);
 
 $link-color: $lt-yellow;
-$link-hover-color: $skyblue !default;
+$link-hover-color: $dk-sky !default;
 
 .active {
     color: $yellow;

@@ -20,7 +20,8 @@ import App from './App';
 // import logo from './tone150.png';
 import Media from './routes/media';
 import Artists from './routes/artists';
-import Clients from './routes/clients';
+import About from './routes/About';
+// import Clients from './routes/clients';
 import Contact from './routes/contact';
 import Notfound from './notfound';
 import * as serviceWorker from './serviceWorker';
@@ -33,26 +34,32 @@ const routing = (
         <Navbar.Collapse className="justify-content-center"  id="theNavbar">
           <Nav.Item>
             <NavLink className="nav-link" exact activeClassName="active" to="/">
-            Artist Management
+            Artist Development
               
             </NavLink>         
           </Nav.Item>
 
           <Nav.Item>
             <NavLink className="nav-link" activeClassName="active" to="/artists">
-              Artists
-            </NavLink>         
-          </Nav.Item>
-
-          <Nav.Item>
-            <NavLink className="nav-link" exact activeClassName="active" to="/clients">
               Clients
             </NavLink>         
           </Nav.Item>
 
+          {/* <Nav.Item>
+            <NavLink className="nav-link" exact activeClassName="active" to="/clients">
+              Clients
+            </NavLink>         
+          </Nav.Item> */}
+
           <Nav.Item>
             <NavLink className="nav-link" activeClassName="active" to="/media">
               Media
+            </NavLink>         
+          </Nav.Item>
+
+          <Nav.Item>
+            <NavLink className="nav-link" activeClassName="active" to="/about">
+              About us
             </NavLink>         
           </Nav.Item>
 
@@ -71,9 +78,10 @@ const routing = (
         <Route exact path="/" component={App} />
         <Route path="/artists/:id" component={Artists} />
         <Route path="/artists" component={Artists} />
-        <Route path="/clients/:id" component={Clients} />
-        <Route path="/clients" component={Clients} />
+        {/* <Route path="/clients/:id" component={Clients} />
+        <Route path="/clients" component={Clients} /> */}
         <Route path="/media" component={Media} />
+        <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
         <Route component={Notfound} />
       </Switch> 

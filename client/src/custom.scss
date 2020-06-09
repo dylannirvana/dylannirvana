@@ -24,21 +24,21 @@ $lt-gray: lighten($gray, 55%);
 $dk-gray: darken($gray, 10%);
 
 // ELEMENTS
-$body-bg: $gray;
-// $body-bg: rgb(0,0,0);
+// $body-bg: $gray;
+$body-bg: #fff;
 // $body-bg: linear-gradient(180deg, #000 0%, #fff 100%);
 // $body-bg: linear-gradient(red, yellow);
 
-$body-color: $lt-gray;
+$body-color: $gray;
 // $pink: pink;
 $dk-yellow: darken($yellow, 20%);
 $lt-yellow: lighten($yellow, 40%);
 
-$link-color: $lt-yellow;
-$link-hover-color: $dk-sky !default;
+$link-color: $blue;
+$link-hover-color: $gray !default;
 
 .active {
-    color: $yellow;
+    color: $skyblue;
   }
 
   .footer {

@@ -15,8 +15,8 @@ class Contact extends React.Component {
     render() {
         return (
             <Container>
-                <h2>Let us help you find what you are looking for.</h2>
-                <p>We have to make this very easy, targeted and compelling. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut nulla eaque cum laudantium enim! Labore aliquid numquam rem perferendis, harum excepturi veniam eos eligendi blanditiis corrupti soluta reprehenderit qui voluptate.</p>
+                <h2>Contact us</h2>
+                <p>Let us help you find what you are looking for.</p>
                 {/* <p>Server is handling POST requests</p> */}
                 {/* <form>
                     <input placeholder="name" type="name" />

@@ -19,18 +19,23 @@ $ketchup: #B00216;
 
 $gray: #282c34;
 
+$dk-sky: darken($skyblue, 5%);
 $lt-gray: lighten($gray, 55%);
 $dk-gray: darken($gray, 10%);
 
 // ELEMENTS
 $body-bg: $gray;
+// $body-bg: rgb(0,0,0);
+// $body-bg: linear-gradient(180deg, #000 0%, #fff 100%);
+// $body-bg: linear-gradient(red, yellow);
+
 $body-color: $lt-gray;
 // $pink: pink;
 $dk-yellow: darken($yellow, 20%);
 $lt-yellow: lighten($yellow, 40%);
 
 $link-color: $lt-yellow;
-$link-hover-color: $skyblue !default;
+$link-hover-color: $dk-sky !default;
 
 .active {
     color: $yellow;
@@ -38,6 +43,9 @@ $link-hover-color: $skyblue !default;
 
   .footer {
     background-color: $dk-gray;
+    position: relative;
+    bottom: 0;
+    width: 100%;
   }
 // $theme-colors: (
 //     "info": tomato,
@@ -48,7 +56,8 @@ $link-hover-color: $skyblue !default;
 @import "~bootstrap/scss/bootstrap";
 
 .section {
-  padding-top: 4rem;
+  padding-top: 12rem;
+  // padding-bottom: 6rem;
 }
 
 .heading {
@@ -67,6 +76,18 @@ form {
   font-size: .128rem;
   padding-top: .8rem;
 }
+
+
+.vendors {
+  // height: 6rem;
+  width: 8rem;
+  padding: .125rem;
+}
+
+
+// spacer.spacer {
+//   margin-bottom: 12rem;
+// }
 
 // Example: Hide starting at `min-width: 0`, and then show at the `sm` breakpoint
 // .brand {

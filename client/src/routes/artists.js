@@ -16,7 +16,7 @@ class Artists extends React.Component {
         const { params } = this.props.match;
         return (
             <Container>
-                <h2>Our Artists</h2>
+                <h2>Our Clients</h2>
                 <p>Server is handling GET requests. Select from menu below. Or type in arbitrary number in address bar (after /).</p>
                 <p>User id: {params.id}</p>                
                 <ul>

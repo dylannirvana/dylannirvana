@@ -39,6 +39,9 @@ $link-hover-color: $dk-sky !default;
 
   .footer {
     background-color: $dk-gray;
+    position: relative;
+    bottom: 0;
+    width: 100%;
   }
 // $theme-colors: (
 //     "info": tomato,

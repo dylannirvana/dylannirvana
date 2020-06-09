@@ -14,12 +14,9 @@ class Contact extends React.Component {
     }
     render() {
         return (
-            <div className="row section">
-            <Col></Col>
-            <Col sm="7">
-                <h2>Contact us</h2>
-                <h5>This is the Call To Action. </h5>
-                <p>"Let us help you find what you are looking for". We have to make this very easy, targeted and compelling. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut nulla eaque cum laudantium enim! Labore aliquid numquam rem perferendis, harum excepturi veniam eos eligendi blanditiis corrupti soluta reprehenderit qui voluptate.</p>
+            <Container>
+                <h2>Let us help you find what you are looking for.</h2>
+                <p>We have to make this very easy, targeted and compelling. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut nulla eaque cum laudantium enim! Labore aliquid numquam rem perferendis, harum excepturi veniam eos eligendi blanditiis corrupti soluta reprehenderit qui voluptate.</p>
                 {/* <p>Server is handling POST requests</p> */}
                 {/* <form>
                     <input placeholder="name" type="name" />
@@ -27,7 +24,6 @@ class Contact extends React.Component {
                     <button onClick={this.onSubmit}>Submit</button>
                 </form> */}
 
-                <Container>
                     <Form>
                     <Form.Label>Name</Form.Label>
                         <Form.Row>
@@ -76,16 +72,13 @@ class Contact extends React.Component {
                             Submit
                         </Button>
                     </Form>
-                </Container>
                 
 
                 {/* Add space */}
                 <br />
                 <br />
                 
-            </Col>
-            <Col></Col>
-            </div>
+            </Container>
 
         )
     }

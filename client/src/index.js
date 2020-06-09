@@ -18,6 +18,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import './custom.scss'; // Works! Compiled by WebPack????
 import App from './App';
 // import logo from './tone150.png';
+import Footer from './components/Footer'
 import Media from './routes/media';
 import Artists from './routes/artists';
 import About from './routes/About';
@@ -34,7 +35,8 @@ const routing = (
         <Navbar.Collapse className="justify-content-center"  id="theNavbar">
           <Nav.Item>
             <NavLink className="nav-link" exact activeClassName="active" to="/">
-            Artist Development
+            {/* Artist Development */}
+            Talent Agency for Music
               
             </NavLink>         
           </Nav.Item>
@@ -59,7 +61,7 @@ const routing = (
 
           <Nav.Item>
             <NavLink className="nav-link" activeClassName="active" to="/about">
-              About us
+              About
             </NavLink>         
           </Nav.Item>
 
@@ -102,12 +104,8 @@ const routing = (
     
     {/* FOOTER NAV */}
 
-    <Navbar fixed="bottom" className="footer mt-auto py-3">
-      <div className="container">
-        <span className="text-muted">Place sticky footer content here.</span>
-      </div>
-    </Navbar>
-    
+      <Footer />
+
       {/* <Nav className="justify-content-center footer" >
         <Nav.Item >
           <p className="tinytype">Copyright 2020</p>

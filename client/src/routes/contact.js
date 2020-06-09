@@ -16,7 +16,7 @@ class Contact extends React.Component {
         return (
             <Container>
                 <h2>Contact us</h2>
-                <p>Let us help you find what you are looking for.</p>
+                <p>Do you work in the Music Industry? Are you trying to find up and coming artists? Let us help you find what you are looking for.</p>
                 {/* <p>Server is handling POST requests</p> */}
                 {/* <form>
                     <input placeholder="name" type="name" />

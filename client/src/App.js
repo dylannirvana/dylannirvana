@@ -4,6 +4,7 @@ import video from './logoDrawOn.mp4'
 import Container from 'react-bootstrap/Container'
 import './App.css';
 import Story from './components/Story';
+import Vendors from './routes/vendors';
 import Contact from './routes/contact';
 // import VideoBackground from './components/VideoBackground';
 // import { Link } from 'react-router';
@@ -70,6 +71,7 @@ render() {
             
         <Container>
           <Story />
+          <Vendors />
           <Contact />
         </Container>
 

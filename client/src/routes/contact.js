@@ -14,7 +14,7 @@ class Contact extends React.Component {
     }
     render() {
         return (
-            <Container>
+            <Container className="section">
                 <h2>Contact us</h2>
                 <p>Do you work in the Music Industry? Are you trying to find up and coming artists? Let us help you find what you are looking for.</p>
                 {/* <p>Server is handling POST requests</p> */}

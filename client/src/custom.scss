@@ -1,9 +1,10 @@
 // Override default variables before the import
 // NOTE: Will do a LHS lookup but not RHS
 
-// VARIABLES
+// ===== VARIABLES
 
 // COLORS 
+
 // Triadic
 $mediumred: #961120;
 $yellow: #E3DB19;
@@ -19,44 +20,114 @@ $ketchup: #B00216;
 
 $gray: #282c34;
 
+// Color adjustments
 $dk-sky: darken($skyblue, 5%);
 $lt-gray: lighten($gray, 55%);
 $dk-gray: darken($gray, 10%);
 
-// ELEMENTS
-$body-bg: $gray;
-// $body-bg: rgb(0,0,0);
-// $body-bg: linear-gradient(180deg, #000 0%, #fff 100%);
-// $body-bg: linear-gradient(red, yellow);
+$lt-brightred: lighten($brightred, 10%);
 
-$body-color: $lt-gray;
-// $pink: pink;
 $dk-yellow: darken($yellow, 20%);
 $lt-yellow: lighten($yellow, 40%);
 
-$link-color: $lt-yellow;
-$link-hover-color: $dk-sky !default;
+// ===== ELEMENTS
+
+// BODY
+$body-bg: $gray;
+// $body-bg: #fff;
+// $body-bg: linear-gradient(180deg, #000 0%, #fff 100%);
+// $body-bg: linear-gradient(red, yellow);
+
+// Type
+$body-color: $lt-gray;
+// $pink: pink;
+
+$link-color: $skyblue;
+$link-hover-color: $lightred !default;
 
 .active {
     color: $yellow;
   }
 
-  .footer {
-    background-color: $dk-gray;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-  }
-// $theme-colors: (
-//     "info": tomato,
-//     "danger": teal
-// );
+// NAVBAR
+// nav.navbar {
+//   background-color: green;
+// }
 
-/* import bootstrap to set changes */
-@import "~bootstrap/scss/bootstrap";
+// .navbar-light .navbar-toggler {
+//   color: red !important;
+//   border-color: blue !important;
+// }
+
+// .navbar-brand {
+//   color: white !important;
+//   // &.active {
+//   //   color: $yellow;
+//   // }
+//   &:hover {
+//     color:$yellow;
+//   }
+// }
+div.mr-auto {
+  padding-left: 1rem;
+  // text-align: center;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: $gray !important;
+}
+
+div.mr-auto, .mx-auto, .navbar-collapse {
+  margin-right: 4.8rem !important;
+  justify-content: center;
+}
+
+a.nav-link, .navbar-brand {
+  color: $lt-gray !important;
+  &.active {
+    color: white !important;
+  }
+  &:hover {
+    color: black !important;
+  }
+}
+// // same thing just in css
+// a.nav-link.active {
+//   color: white !important;
+// }
+
+// a.nav-link:hover {
+//   color: black !important;
+// }
+
+
+// .navbar-nav .nav-link {
+//   color: blue !important;
+//   :active {
+//     color: white !important;
+//   }
+// }
+// .navbar-light .navbar-nav .nav-link {
+//   color: orange !important;
+//   a:active {
+//     color: pink;
+//   }
+// }
+
+// .navbar-nav a.nav-link {
+//   color:  !important;
+// }
+
+// a.nav-link {
+//   color: $yellow;
+// }
+
+
+// ===== SECTIONS
+
 
 .section {
-  padding-top: 12rem;
+  padding-top: 6rem;
   // padding-bottom: 6rem;
 }
 
@@ -64,19 +135,17 @@ $link-hover-color: $dk-sky !default;
   padding-top: 1rem;
 }
 
-// FORMS
-form {
-  text-align: left !important;
-}
-.form-label {
-  padding-top: .5rem;
+.footer {
+  background-color: $dk-gray;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
 
 .tinytype {
   font-size: .128rem;
   padding-top: .8rem;
 }
-
 
 .vendors {
   // height: 6rem;
@@ -85,6 +154,17 @@ form {
 }
 
 
+// ===== FORMS
+form {
+  text-align: left !important;
+}
+.form-label {
+  padding-top: .5rem;
+}
+
+
+
+// // working archive
 // spacer.spacer {
 //   margin-bottom: 12rem;
 // }
@@ -98,3 +178,13 @@ form {
 //     display: block;
 //   }
 // }
+
+// $theme-colors: (
+//     "info": tomato,
+//     "danger": teal
+// );
+
+
+// ===== BOOTSTRAP IMPORT AT END
+/* import bootstrap to set changes at END? */
+@import "~bootstrap/scss/bootstrap";

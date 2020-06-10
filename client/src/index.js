@@ -26,18 +26,64 @@ import About from './routes/About';
 import Contact from './routes/contact';
 import Notfound from './notfound';
 import * as serviceWorker from './serviceWorker';
+import NavbarBrand from 'react-bootstrap/NavbarBrand';
 
 const routing = (
   <Router>
     <div>   
-      <Navbar expand="md">
+    <Navbar bg="dark" expand="lg">
+      {/* <Navbar.Brand href="#">Versatile Tone Group</Navbar.Brand> */}
+
+      <NavbarBrand>
+        <Nav.Item>
+          <NavLink className="nav-link" exact activeClassName="active" to="/">
+          Versatile Tone Group       
+          </NavLink>         
+        </Nav.Item>
+      </NavbarBrand>
+      
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      
+      <Navbar.Collapse id="basic-navbar-nav" >
+        <Nav className="mr-auto">   
+          {/* <Nav.Link href="#home">Home</Nav.Link>
+          <Nav.Link href="#link">Link</Nav.Link> */}
+
+          <Nav.Item>
+            <NavLink className="nav-link" activeClassName="active" to="/artists">
+              Clients
+            </NavLink>         
+          </Nav.Item>
+
+          <Nav.Item>
+            <NavLink className="nav-link" activeClassName="active" to="/media">
+              Media
+            </NavLink>         
+          </Nav.Item>
+
+          <Nav.Item>
+            <NavLink className="nav-link" activeClassName="active" to="/about">
+              About
+            </NavLink>         
+          </Nav.Item>
+
+          <Nav.Item>
+            <NavLink className="nav-link" exact activeClassName="active" to="/contact">
+              Contact
+            </NavLink>         
+          </Nav.Item>
+        
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
+
+      {/* <Navbar bg="dark" expand="md">
         <Navbar.Toggle aria-controls="theNavbar" />
         <Navbar.Collapse className="justify-content-center"  id="theNavbar">
+
           <Nav.Item>
             <NavLink className="nav-link" exact activeClassName="active" to="/">
-            {/* Artist Development */}
-            Talent Agency for Music
-              
+            Talent Agency for Music       
             </NavLink>         
           </Nav.Item>
 
@@ -46,12 +92,6 @@ const routing = (
               Clients
             </NavLink>         
           </Nav.Item>
-
-          {/* <Nav.Item>
-            <NavLink className="nav-link" exact activeClassName="active" to="/clients">
-              Clients
-            </NavLink>         
-          </Nav.Item> */}
 
           <Nav.Item>
             <NavLink className="nav-link" activeClassName="active" to="/media">
@@ -72,8 +112,7 @@ const routing = (
           </Nav.Item>
 
         </Navbar.Collapse>
-
-      </Navbar>
+      </Navbar> */}
 
       {/* <Container> */}
       <Switch>

@@ -72,10 +72,16 @@ div.mr-auto {
   padding-left: 1rem;
   // text-align: center;
 }
+
+.navbar-light .navbar-toggler {
+  border-color: $lt-gray !important;
+}
+
 div.mr-auto, .mx-auto, .navbar-collapse {
   margin-right: 4.8rem !important;
   justify-content: center;
 }
+
 a.nav-link, .navbar-brand {
   color: $lt-gray !important;
   &.active {

@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 // import logo from './tone150.png';
 import video from './logoDrawOn.mp4'
-import Container from 'react-bootstrap/Container'
+// import Container from 'react-bootstrap/Container'
 import './App.css';
-import Story from './components/Story';
-import Vendors from './routes/vendors';
-import Contact from './routes/contact';
+// import Story from './components/Story';
+// import Vendors from './routes/vendors';
+// import Contact from './routes/contact';
 // import VideoBackground from './components/VideoBackground';
 // import { Link } from 'react-router';
 // import { 
@@ -69,11 +69,11 @@ render() {
 
         </header>
             
-        <Container>
+        {/* <Container>
           <Story />
           <Vendors />
           <Contact />
-        </Container>
+        </Container> */}
 
       </div>
     );

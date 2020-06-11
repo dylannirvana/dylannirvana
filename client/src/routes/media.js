@@ -12,7 +12,7 @@ import Container from 'react-bootstrap/Container'
 class Media extends React.Component {
     render() {
         return (
-            <Container>
+            <Container className="section">
                 <h2>Media</h2> 
                 <ol>
                     <li>Your Artists</li>

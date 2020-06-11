@@ -30,12 +30,14 @@ class Clients extends React.Component {
 
                 {/* REACT PLAYER */}
                 <p>Sample Youtube VDO</p>
-                <ReactPlayer 
-                    className="react-player"
-                    url="https://youtu.be/21-MlQ_irLo"
-                    width='auto'
-                    height='400' 
-                />
+                <div className='player-wrapper'>
+                    <ReactPlayer
+                    className='react-player'
+                    url='https://www.youtube.com/watch?v=ysz5S6PUM-U'
+                    width='100%'
+                    height='100%'
+                    />
+                </div>
                 
                 {/* <p>User id: {params.id}</p>                
                 <ul>

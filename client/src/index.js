@@ -20,7 +20,7 @@ import App from './App';
 // import logo from './tone150.png';
 import Footer from './components/Footer'
 import Media from './routes/media';
-import Artists from './routes/artists';
+import Clients from './routes/clients';
 import About from './routes/About';
 // import Clients from './routes/clients';
 import Contact from './routes/contact';
@@ -50,7 +50,7 @@ const routing = (
           <Nav.Link href="#link">Link</Nav.Link> */}
 
           <Nav.Item>
-            <NavLink className="nav-link" activeClassName="active" to="/artists">
+            <NavLink className="nav-link" activeClassName="active" to="/clients">
               Clients
             </NavLink>         
           </Nav.Item>
@@ -117,10 +117,10 @@ const routing = (
       {/* <Container> */}
       <Switch>
         <Route exact path="/" component={App} />
-        <Route path="/artists/:id" component={Artists} />
-        <Route path="/artists" component={Artists} />
-        {/* <Route path="/clients/:id" component={Clients} />
-        <Route path="/clients" component={Clients} /> */}
+        {/* <Route path="/artists/:id" component={Artists} />
+        <Route path="/artists" component={Artists} /> */}
+        <Route path="/clients/:id" component={Clients} />
+        <Route path="/clients" component={Clients} />
         <Route path="/media" component={Media} />
         <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />

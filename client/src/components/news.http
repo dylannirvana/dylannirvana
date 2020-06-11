@@ -3,4 +3,6 @@
 
 # GET http://newsapi.org/v2/top-headlines?sources=billboard&apiKey=b1d3b456717c4a2e921dd4cb0379e828
 
-OPTIONS https://spotifystefan-skliarovv1.p.rapidapi.com/addTracksToPlaylist
+# OPTIONS https://spotifystefan-skliarovv1.p.rapidapi.com/addTracksToPlaylist
+
+OPTIONS https://api.twitter.com/1.1/statuses/home_timeline.json

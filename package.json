@@ -13,6 +13,7 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
+    "react-twitter-embed": "^3.0.3",
     "react-video-cover": "^1.2.2"
   },
   "devDependencies": {

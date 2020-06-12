@@ -4,11 +4,12 @@ import React from 'react';
 //     Link 
 // } from 'react-router-dom';
 // import Video from '../components/Video';
-import Tracks from '../components/Tracks';
+// import Tracks from '../components/Tracks';
 // import Stats from '../components/Stats';
 import Container from 'react-bootstrap/Container'
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
 import ReactPlayer from 'react-player'
+import InstagramEmbed from 'react-instagram-embed'
 
 // NOTE: artists.js and client.js may refactor as the same parameterized component. 
 
@@ -38,6 +39,33 @@ class Clients extends React.Component {
                     height='100%'
                     />
                 </div>
+
+                {/* SOUNDCLOUD */}
+                <p>Soundcloud</p>
+                <div className='player-wrapper'>
+                    <ReactPlayer
+                    className='react-player'
+                    url='https://soundcloud.com/dj-regard-1/ride-it'
+                    width='100%'
+                    height='100%'
+                    />
+                </div>    
+
+                {/* INSTAGRAM */}
+                <p>Instagram</p>
+                <InstagramEmbed
+                    url='https://instagr.am/p/Zw9o4/'
+                    maxWidth={320}
+                    hideCaption={false}
+                    containerTagName='div'
+                    protocol=''
+                    injectScript
+                    onLoading={() => {}}
+                    onSuccess={() => {}}
+                    onAfterRender={() => {}}
+                    onFailure={() => {}}
+                />
+
                 
                 {/* <p>User id: {params.id}</p>                
                 <ul>
@@ -54,7 +82,7 @@ class Clients extends React.Component {
                 {/* <Route path="/users/:id" component={User} /> */}
                 
                 {/* <Video /> */}
-                <Tracks />
+                {/* <Tracks /> */}
                 {/* <Stats /> */}
 
             </Container>

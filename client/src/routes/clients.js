@@ -6,12 +6,15 @@ import React from 'react';
 // import Video from '../components/Video';
 // import Tracks from '../components/Tracks';
 // import Stats from '../components/Stats';
+import Twitter from '../components/Twitter'
+import Youtube from '../components/Youtube'
+import Soundcloud from '../components/Soundcloud'
+import Instagram from '../components/Instagram'
 import Container from 'react-bootstrap/Container'
-import { TwitterTimelineEmbed } from 'react-twitter-embed';
-import ReactPlayer from 'react-player'
-import InstagramEmbed from 'react-instagram-embed'
+// import ReactPlayer from 'react-player'
 
-// NOTE: artists.js and client.js may refactor as the same parameterized component. 
+// NOTE: divide API up between client.js and media.js 
+// TODO: bio lorem, full container vdo, 
 
 
 class Clients extends React.Component {
@@ -19,53 +22,19 @@ class Clients extends React.Component {
         // const { params } = this.props.match;
         return (
             <Container className="section">
-                <h2>Artist Name</h2>
-                <p>Sample Twitter timeline</p>
+                <h2>Jay Z</h2>
+                <p>Lorem ipsum dolor sit amet, usu falli audire impedit id. Alia quaestio delicatissimi mea at, consequat ullamcorper mea et, in eum porro ludus quodsi. Oratio lucilius ad eos, eros consequuntur ea ius, per legere offendit interpretaris ne. Pro et tempor evertitur, vis accusam suscipit invenire at. Mei ei apeirian accusata accusamus. Ea affert voluptua convenire sea, quando platonem vim no.</p>
 
-                {/* REACT TWITTER EMBED */}
-                <TwitterTimelineEmbed
-                    sourceType="profile"
-                    screenName="saurabhnemade"
-                    options={{height: 400}}
-                />
+                
+                <Youtube />
+                <Twitter />
+                <Soundcloud />
+                <Instagram />
 
-                {/* REACT PLAYER */}
-                <p>Sample Youtube VDO</p>
-                <div className='player-wrapper'>
-                    <ReactPlayer
-                    className='react-player'
-                    url='https://www.youtube.com/watch?v=ysz5S6PUM-U'
-                    width='100%'
-                    height='100%'
-                    />
-                </div>
+                
 
-                {/* SOUNDCLOUD */}
-                <p>Soundcloud</p>
-                <div className='player-wrapper'>
-                    <ReactPlayer
-                    className='react-player'
-                    url='https://soundcloud.com/dj-regard-1/ride-it'
-                    width='100%'
-                    height='100%'
-                    />
-                </div>    
-
-                {/* INSTAGRAM */}
-                <p>Instagram</p>
-                <InstagramEmbed
-                    url='https://instagr.am/p/Zw9o4/'
-                    maxWidth={320}
-                    hideCaption={false}
-                    containerTagName='div'
-                    protocol=''
-                    injectScript
-                    onLoading={() => {}}
-                    onSuccess={() => {}}
-                    onAfterRender={() => {}}
-                    onFailure={() => {}}
-                />
-
+               
+                
                 
                 {/* <p>User id: {params.id}</p>                
                 <ul>

@@ -28,6 +28,10 @@ import Notfound from './notfound';
 import * as serviceWorker from './serviceWorker';
 import NavbarBrand from 'react-bootstrap/NavbarBrand';
 
+// NOTE: Scrolling https://www.npmjs.com/package/react-router-scroll ?
+// TODO: nav.navitem.onclick(close nav dropdown) 
+
+
 const routing = (
   <Router>
     <div>   
@@ -171,30 +175,8 @@ ReactDOM.render(
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
 
-// Routing =====
-// DONE: Move route files to routes directory. Update path index.js
-// DONE: Sitemap Flowmapp
-// DONE: touch new placeholders and route them: STORY, ARTISTS, CLIENT
-// TODO: Scrolling https://www.npmjs.com/package/react-router-scroll || react docs. 
-// TODO: New navigation
 
 
-// UI =====
-// DONE: Remove styling from App.js and add to index.js
-// DONE: Add Bootstrap styles
-// DONE: client/src/custom.scss
-// DONE: Add Bootstrap Navbar to router in index.js
-// TODO: SASS stylesheets
-// TODO: Navigation
-// TODO: Layout
 
 
-// API =====
-// TODO: API for the Client page: easily choose, and sign an artist?
-// TODO: Build POST request contact form contact.js 
-// TODO: Instagram API
-// TODO: Twitter 
-// DONE: News 
-// TODO: YouTube
-// TODO: Spotify
 

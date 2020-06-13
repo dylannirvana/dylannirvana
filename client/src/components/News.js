@@ -36,6 +36,7 @@ class News extends Component {
     return (
       <Container> 
         {/* Using Bootstrap styles */}
+        <p>Resolving issue why news is not showing on server.</p>
         <Row>
         {this.renderItems()}
         </Row>

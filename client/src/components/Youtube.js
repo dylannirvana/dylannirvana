@@ -20,13 +20,14 @@ class Youtube extends Component {
         return (
             <div>
                 {/* REACT PLAYER */}
-                <p>Sample Youtube VDO</p>
+                {/* <p>Sample Youtube VDO</p> */}
                 <div className='player-wrapper'>
                     <ReactPlayer
                     className='react-player'
                     url='https://www.youtube.com/watch?v=ysz5S6PUM-U'
                     width='100%'
                     height='100%'
+                    controls={true}
                     />
                 </div>
                 

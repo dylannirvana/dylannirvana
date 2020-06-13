@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import InstagramEmbed from 'react-instagram-embed'
-
+// Resource: https://www.npmjs.com/package/react-instagram-embed
 
 class Instagram extends Component {
     constructor(props) {
@@ -16,12 +16,13 @@ class Instagram extends Component {
 
     render() {
         return (
-            <div>
+            <div className="instagram">
                 {/* INSTAGRAM */}
-                <p>Instagram</p>
+                <h3>Instagram</h3>
                 <InstagramEmbed
                     url='https://instagr.am/p/Zw9o4/'
-                    maxWidth={320}
+                    // maxWidth={320}
+                    maxWidth='auto'
                     hideCaption={false}
                     containerTagName='div'
                     protocol=''

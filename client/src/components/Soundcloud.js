@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import ReactPlayer from 'react-player'
+import ReactPlayer from 'react-player/lazy'
 
+// Resource: https://cookpete.com/react-player/ 
 
 class Soundcloud extends Component {
     constructor(props) {
@@ -18,14 +19,15 @@ class Soundcloud extends Component {
         return (
             <div>
                  {/* SOUNDCLOUD */}
-                 <p>Soundcloud</p>
+                 <h3>Soundcloud</h3>
                 <div className='player-wrapper'>
                     <ReactPlayer
                     className='react-player'
                     url='https://soundcloud.com/dj-regard-1/ride-it'
                     width='100%'
-                    height='100%'
+                    height='auto'
                     />
+                    <br />
                 </div>    
                 
             </div>

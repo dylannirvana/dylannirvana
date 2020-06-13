@@ -18,6 +18,7 @@ class Twitter extends Component {
         return (
             <div>
                 {/* REACT TWITTER EMBED */}
+                <h3>Twitter</h3>
                 <TwitterTimelineEmbed
                     sourceType="profile"
                     screenName="saurabhnemade"

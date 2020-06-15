@@ -12,7 +12,8 @@ const NewSingle = ({item}) => (
 
     <Col sm={6} md={4} lg={3}>
          <Card >
-        <Card.Img variant="top" src={item.urlToImage} />
+        {/* <Card.Img variant="top" src={item.urlToImage} /> */}
+        <Card.Img variant="top" src={item.image} />
         <Card.Body>
             <Card.Link href={item.url} target='_blank' >
                 <Card.Title>{item.title}</Card.Title>

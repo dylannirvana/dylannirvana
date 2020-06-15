@@ -34,10 +34,10 @@ $body-bg: black;
 
 // Type
 $body-color: $lt-gray;
-$link-color: $skyblue;
+$link-color: white;
 $link-hover-color: $lightred !default;
 .active {
-    color: $yellow;
+    color: white;
   }
 
 body {
@@ -50,6 +50,13 @@ body {
 div.mr-auto, .mx-auto, .navbar-collapse {
   margin-right: 4.8rem !important;
   justify-content: center;
+}
+
+// Aligns nav items justify left under brand
+div.mr-auto {
+  margin-left: 1.2rem !important;
+  justify-content: start;
+  text-align: left;
 }
 
 // COLOR
@@ -66,13 +73,14 @@ a.nav-link, .navbar-brand {
     color: white !important;
   }
   &:hover {
-    color: $yellow !important;
+    color: white !important;
   }
 }
 
 // Hamburger
 .navbar-light .navbar-toggler {
-  border-color: $gray !important;
+  // border-color: $gray !important;
+  background-color: $gray;
 }
 
 
@@ -146,6 +154,11 @@ form {
 .player-wrapper {
   position: relative;
   padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+}
+
+.player-wrapper-soundcloud {
+  position: relative;
+  // padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
 }
 
 .react-player {

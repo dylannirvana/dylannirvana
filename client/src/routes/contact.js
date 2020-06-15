@@ -1,7 +1,7 @@
 import React from 'react';
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button'
-import Col from 'react-bootstrap/Col'
+// import Form from 'react-bootstrap/Form';
+// import Button from 'react-bootstrap/Button'
+// import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
 
 // NOTE: contact.js handles server-side POST requests. This might be the CTA: Contact directly.
@@ -9,25 +9,20 @@ import Container from 'react-bootstrap/Container'
 
 class Contact extends React.Component {
 
-    onSubmit = () => {
-        this.props.history.push('/')
-    }
+    // onSubmit = () => {
+    //     this.props.history.push('/')
+    // }
     render() {
         return (
             <Container className="section">
-                <h2>Contact us</h2>
-                <p>Do you work in the Music Industry? Are you trying to find up and coming artists? Let us help you find what you are looking for.</p>
-                {/* <p>Server is handling POST requests</p> */}
-                {/* <form>
-                    <input placeholder="name" type="name" />
-                    <input placeholder="email" type="email" />
-                    <button onClick={this.onSubmit}>Submit</button>
-                </form> */}
+                <h2>Contact Tone</h2>
+                <p>Lorem ipsum dolor sit amet, usu falli audire impedit id. Alia quaestio delicatissimi mea at, consequat ullamcorper mea et, in eum porro ludus quodsi. Oratio lucilius ad eos, eros consequuntur ea ius, per legere offendit interpretaris ne. Pro et tempor evertitur, vis accusam suscipit invenire at. Mei ei apeirian accusata accusamus. Ea affert voluptua convenire sea, quando platonem vim no.</p>
 
-                    <Form>
+                {/* MAILTO */}
+                <h3><a href="mailto:someone@example.com?subject=Yes">Send your email</a></h3>
+                    {/* <Form>
                     <Form.Label>Name</Form.Label>
                         <Form.Row>
-                            {/* <Form.Group> */}
                             
                             <Col>
                             <Form.Control placeholder="First name" />
@@ -35,7 +30,6 @@ class Contact extends React.Component {
                             <Col>
                             <Form.Control placeholder="Last name" />
                             </Col>
-                            {/* </Form.Group> */}
                         </Form.Row>
 
                         <Form.Row>
@@ -52,29 +46,19 @@ class Contact extends React.Component {
                             </Form.Group>
                         </Form.Row>
 
-                        {/* <Form.Group controlId="formBasicEmail">
-                            <Form.Label>Email address</Form.Label>
-                            <Form.Control type="email" placeholder="Enter email" />
-                            <Form.Text className="text-muted">
-                            We'll never share your email with anyone else.
-                            </Form.Text>
-                        </Form.Group> */}
-
-                        {/* <Form.Group controlId="formBasicPassword">
-                            <Form.Label>Password</Form.Label>
-                            <Form.Control type="password" placeholder="Password" />
-                        </Form.Group>
-                        <Form.Group controlId="formBasicCheckbox">
-                            <Form.Check type="checkbox" label="Check me out" />
-                        </Form.Group> */}
-
                         <Button variant="secondary" type="submit">
                             Submit
                         </Button>
-                    </Form>
+                    </Form> */}
                 
 
                 {/* Add space */}
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
                 <br />
                 <br />
                 

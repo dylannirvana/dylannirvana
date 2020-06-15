@@ -28,14 +28,17 @@ class Clients extends React.Component {
 
                 <Container className="section">
                     {/* Tease: beginning above the fold */}
-                    <h2>Jay Z</h2>
+                    <h2>Artist Name</h2>
                     {/* Short Bio */}
+                    <p>Lorem ipsum dolor sit amet, usu falli audire impedit id. Alia quaestio delicatissimi mea at, consequat ullamcorper mea et, in eum porro ludus quodsi. Oratio lucilius ad eos, eros consequuntur ea ius, per legere offendit interpretaris ne. Pro et tempor evertitur, vis accusam suscipit invenire at. Mei ei apeirian accusata accusamus. Ea affert voluptua convenire sea, quando platonem vim no.</p>
                     <p>Lorem ipsum dolor sit amet, usu falli audire impedit id. Alia quaestio delicatissimi mea at, consequat ullamcorper mea et, in eum porro ludus quodsi. Oratio lucilius ad eos, eros consequuntur ea ius, per legere offendit interpretaris ne. Pro et tempor evertitur, vis accusam suscipit invenire at. Mei ei apeirian accusata accusamus. Ea affert voluptua convenire sea, quando platonem vim no.</p>
 
                     <Soundcloud />
+                    <br />
+                    <br />
+                    <br />
                 </Container>
                
-
 
                 <br />
                 <br />

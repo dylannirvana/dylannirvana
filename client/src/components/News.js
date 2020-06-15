@@ -12,7 +12,8 @@ class News extends Component {
   }
 
   componentDidMount() {
-    const url = 'http://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=b1d3b456717c4a2e921dd4cb0379e828';
+    // const url = 'http://newsapi.org/v2/everything?domains=billboard.com&apiKey=b1d3b456717c4a2e921dd4cb0379e828';
+    const url = 'https://gnews.io/api/v3/search?q=music&source=billboard&token=f4f33a3a088407a836e3a419ae99c96f'
     // Use REST Client plugin (or Postman) to identify Singleton if needed
     fetch(url)
       .then((response) => {
@@ -36,7 +37,7 @@ class News extends Component {
     return (
       <Container> 
         {/* Using Bootstrap styles */}
-        <p>Resolving issue why news is not showing on server.</p>
+        {/* <p>Resolving issue why news is not showing on server.</p> */}
         <Row>
         {this.renderItems()}
         </Row>

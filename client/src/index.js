@@ -35,8 +35,7 @@ import NavbarBrand from 'react-bootstrap/NavbarBrand';
 const routing = (
   <Router>
     <div>   
-    <Navbar bg="dark" expand="lg">
-      {/* <Navbar.Brand href="#">Versatile Tone Group</Navbar.Brand> */}
+    <Navbar expand="lg" bg="dark">
 
       <NavbarBrand>
         <Nav.Item>
@@ -48,11 +47,8 @@ const routing = (
       
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       
-      <Navbar.Collapse id="basic-navbar-nav" >
+      <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">   
-          {/* <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#link">Link</Nav.Link> */}
-
           <Nav.Item>
             <NavLink className="nav-link" activeClassName="active" to="/clients">
               Clients
@@ -72,11 +68,11 @@ const routing = (
           </Nav.Item>
 
           <Nav.Item>
-            <NavLink className="nav-link" exact activeClassName="active" to="/contact">
+            <NavLink className="nav-link" activeClassName="active" to="/contact">
               Contact
             </NavLink>         
           </Nav.Item>
-        
+          
         </Nav>
       </Navbar.Collapse>
     </Navbar>

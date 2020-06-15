@@ -79,7 +79,8 @@ a.nav-link, .navbar-brand {
 
 // Hamburger
 .navbar-light .navbar-toggler {
-  border-color: $gray !important;
+  // border-color: $gray !important;
+  background-color: $gray;
 }
 
 

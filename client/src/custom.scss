@@ -30,19 +30,25 @@ $lt-yellow: lighten($yellow, 40%);
 
 // ===== BODY
 // Background
-$body-bg: black;
+$body-bg: pink;
 
+body {
+  text-align: center !important;
+}
+
+// ===== Type
 // Type
 $body-color: $lt-gray;
-$link-color: white;
+$link-color: $mediumred;
 $link-hover-color: $lightred !default;
 .active {
     color: white;
   }
 
-body {
-  text-align: center !important;
-}
+// ===== VDO
+// .App-header {
+//   position: fixed;
+// }
 
 // ===== NAVBAR
 // LAYOUT
@@ -61,26 +67,40 @@ div.mr-auto {
 
 // COLOR
 // Background
+div.navbar-container {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
 nav.navbar.bg-dark {
-  background-color: #000 !important;
+  // background-color: #000 !important;
+  position: relative !important;
+  background-color: transparent !important;
   border-bottom: 1px solid $gray;
 }
 
+// Transparency
+// .navbar.transparent.navbar-inverse .navbar-inner {
+//   background: rgba(0,0,0,0.4);
+// }
+
 // Links
 a.nav-link, .navbar-brand {
-  color: $lt-gray !important;
+  color: $gray !important;
   &.active {
-    color: white !important;
+    color: $mediumred !important;
   }
   &:hover {
-    color: white !important;
+    color: $yellow !important;
   }
 }
 
 // Hamburger
 .navbar-light .navbar-toggler {
   // border-color: $gray !important;
-  background-color: $gray;
+  // background-color: $gray;
+  background-color: transparent;
 }
 
 

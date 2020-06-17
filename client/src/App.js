@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 // import logo from './tone150.png';
-import video from './logoDrawOn.mp4'
+// import video from './logoDrawOn.mp4'
 // import Container from 'react-bootstrap/Container'
 import './App.css';
+import CoverVDO from './components/CoverVDO';
 // import Story from './components/Story';
 // import Vendors from './routes/vendors';
 // import Contact from './routes/contact';
@@ -55,10 +56,7 @@ class App extends Component {
 render() {
     return (
       <div className="App">
-        <header className="App-header">
-          {/* <img src={logo} className="App-logo" alt="logo" /> */}
-          
-            {/* COVER VDO */}
+        {/* <header className="App-header">
             <video src={video} autoPlay muted loop style={{
               type: 'video/mp4',
               objectFit: 'cover',
@@ -66,8 +64,8 @@ render() {
               width: '100vw',
               height: '100vh',
               }} />
-
-        </header>
+        </header> */}
+        <CoverVDO />
             
         {/* <Container>
           <Story />

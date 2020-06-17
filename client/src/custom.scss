@@ -30,7 +30,7 @@ $lt-yellow: lighten($yellow, 40%);
 
 // ===== BODY
 // Background
-$body-bg: pink;
+$body-bg: #000;
 
 body {
   text-align: center !important;
@@ -52,55 +52,53 @@ $link-hover-color: $lightred !default;
 
 // ===== NAVBAR
 // LAYOUT
+// Dropdown
 // Adds visual spacing to centered nav items
 div.mr-auto, .mx-auto, .navbar-collapse {
-  margin-right: 4.8rem !important;
+  // margin-right: 4.8rem !important;
   justify-content: center;
 }
 
-// Aligns nav items justify left under brand
+// Aligns nav items 
 div.mr-auto {
-  margin-left: 1.2rem !important;
-  justify-content: start;
-  text-align: left;
+  // margin-right: 0rem !important;
+  justify-content: flex-end;
+  text-align: right;
+  // padding-top: 5%;
+  right: 0;
 }
 
-// COLOR
 // Background
 div.navbar-container {
   position: fixed;
   width: 100%;
   z-index: 1;
+  // copy to footer
 }
 
 nav.navbar.bg-dark {
   // background-color: #000 !important;
   position: relative !important;
   background-color: transparent !important;
-  border-bottom: 1px solid $gray;
+  // border-bottom: 1px solid $gray;
 }
 
-// Transparency
-// .navbar.transparent.navbar-inverse .navbar-inner {
-//   background: rgba(0,0,0,0.4);
-// }
-
+// COLOR
 // Links
 a.nav-link, .navbar-brand {
   color: $gray !important;
   &.active {
-    color: $mediumred !important;
+    color: $lt-gray !important;
   }
   &:hover {
-    color: $yellow !important;
+    color: $gray !important;
   }
 }
 
 // Hamburger
 .navbar-light .navbar-toggler {
   // border-color: $gray !important;
-  // background-color: $gray;
-  background-color: transparent;
+  background-color: transparentize(#000, .9);
 }
 
 
@@ -112,6 +110,8 @@ a.nav-link, .navbar-brand {
 .section {
   padding-top: 6rem;
   // padding-bottom: 6rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 .heading {
@@ -119,16 +119,21 @@ a.nav-link, .navbar-brand {
 }
 
 .footer {
-  background-color: $dk-gray;
+  background-color: transparent;
   position: fixed;
   bottom: 0;
   width: 100%;
-}
+  z-index: 1;
 
-.tinytype {
   font-size: .128rem;
+  color: $gray;
   padding-top: .8rem;
 }
+
+// .tinytype {
+//   font-size: .128rem;
+//   padding-top: .8rem;
+// }
 
 .vendors {
   // height: 6rem;

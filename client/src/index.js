@@ -26,7 +26,7 @@ import About from './routes/About';
 import Contact from './routes/contact';
 import Notfound from './notfound';
 import * as serviceWorker from './serviceWorker';
-import NavbarBrand from 'react-bootstrap/NavbarBrand';
+// import NavbarBrand from 'react-bootstrap/NavbarBrand';
 
 // NOTE: Scrolling https://www.npmjs.com/package/react-router-scroll ?
 // TODO: nav.navitem.onclick(close nav dropdown) 
@@ -36,20 +36,26 @@ const routing = (
   <Router>
     <div>  
       <div className="navbar-container">
-        <Navbar expand="lg" bg="dark">
+        <Navbar collapseOnSelect className="navbar-dark" expand="none" bg="dark">
 
-          <NavbarBrand>
+          {/* <NavbarBrand>
             <Nav.Item>
               <NavLink className="nav-link" exact activeClassName="active" to="/">
               Versatile Tone Group       
               </NavLink>         
             </Nav.Item>
-          </NavbarBrand>
+          </NavbarBrand> */}
 
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">   
+              <Nav.Item>
+                <NavLink className="nav-link" exact activeClassName="active" to="/">
+                  Tone
+                </NavLink>         
+              </Nav.Item>
+             
               <Nav.Item>
                 <NavLink className="nav-link" activeClassName="active" to="/clients">
                   Clients

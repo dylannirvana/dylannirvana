@@ -119,6 +119,7 @@ nav.navbar.bg-dark {
 // COLOR
 // Links
 a.nav-link, .navbar-brand {
+  font-size: 1.2rem;
   color: $gray !important;
   &.active {
     color: $lt-gray !important;

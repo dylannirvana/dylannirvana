@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import video from '../logoDrawOn.mp4'
+// import video from '../logoDrawOn.mp4'
+// import video from '../glitch.mp4'
+import video from '../holding.mp4'
 
 
 class CoverVDO extends Component {

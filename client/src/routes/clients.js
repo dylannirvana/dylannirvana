@@ -12,6 +12,8 @@ import Soundcloud from '../components/Soundcloud'
 // import Instagram from '../components/Instagram'
 // import Contact from '../routes/contact'
 import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 // import ReactPlayer from 'react-player'
 
 // NOTE: divide API up between client.js and media.js 
@@ -28,10 +30,18 @@ class Clients extends React.Component {
 
                 <Container className="section">
                     {/* Tease: beginning above the fold */}
-                    <h2>Artist Name</h2>
+                    <h2>Chase Alex</h2>
                     {/* Short Bio */}
-                    <p>Lorem ipsum dolor sit amet, usu falli audire impedit id. Alia quaestio delicatissimi mea at, consequat ullamcorper mea et, in eum porro ludus quodsi. Oratio lucilius ad eos, eros consequuntur ea ius, per legere offendit interpretaris ne. Pro et tempor evertitur, vis accusam suscipit invenire at. Mei ei apeirian accusata accusamus. Ea affert voluptua convenire sea, quando platonem vim no.</p>
-                    <p>Lorem ipsum dolor sit amet, usu falli audire impedit id. Alia quaestio delicatissimi mea at, consequat ullamcorper mea et, in eum porro ludus quodsi. Oratio lucilius ad eos, eros consequuntur ea ius, per legere offendit interpretaris ne. Pro et tempor evertitur, vis accusam suscipit invenire at. Mei ei apeirian accusata accusamus. Ea affert voluptua convenire sea, quando platonem vim no.</p>
+                    <p>Take a look in to the mind of Chase Alex, as he faces moral dilemmas in situations his gritty charm can’t get him out of. New York roots with fluid Chicago influence fuels his creativity-in-music as an art. Chase’s artistic production does not call for categories, he says “Immerse yourself into my work”.  One thing you won’t find as a surprise is his zest for auto-crooning over futuristic pop melodies with trap inspired percussion, Chase hopes to use his music to tell stories of hopeless romance while dealing with his fear of growing up all while wearing designer jeans. </p>
+
+                    {/* // TODO: I need the real links here */}
+                    <Row>
+                        <Col><a href="https://apple.com"><i className="fab fa-instagram fa-2x"></i></a></Col>
+                        <Col><a href="https://apple.com"><i className="fab fa-youtube fa-2x"></i></a></Col>
+                        <Col><a href="https://apple.com"><i className="fab fa-twitter fa-2x"></i></a></Col>
+                    </Row>
+
+                    
 
                     <Soundcloud />
                     <br />

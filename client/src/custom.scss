@@ -1,4 +1,4 @@
-// @import url("https://fast.fonts.net/lt/1.css?apiType=css&c=66626a4f-60bc-408e-b67f-452bd02d7d1b&fontids=1475822");
+@import url("https://fast.fonts.net/lt/1.css?apiType=css&c=66626a4f-60bc-408e-b67f-452bd02d7d1b&fontids=1475822");
 @font-face{
     font-family:"Futura LT W01 Bold";
     src:url("Fonts/1475822/3cf9e1e8-63a2-497f-86ed-6b63d6de1986.woff2") format("woff2"),url("Fonts/1475822/184895ac-545b-450b-9d3a-c0a0a7620977.woff") format("woff");
@@ -71,6 +71,11 @@ $nav-font: $headings-font-family;
 //   font-style: normal;
 //   font-weight: 400;
 // }
+
+// ===== FONT AWESOME
+i.fab {
+  color: pink;
+}
 
 // ===== VDO
 // .App-header {

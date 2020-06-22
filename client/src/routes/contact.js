@@ -19,7 +19,7 @@ class Contact extends React.Component {
                 <p>Lorem ipsum dolor sit amet, usu falli audire impedit id. Alia quaestio delicatissimi mea at, consequat ullamcorper mea et, in eum porro ludus quodsi. Oratio lucilius ad eos, eros consequuntur ea ius, per legere offendit interpretaris ne. Pro et tempor evertitur, vis accusam suscipit invenire at. Mei ei apeirian accusata accusamus. Ea affert voluptua convenire sea, quando platonem vim no.</p>
 
                 {/* MAILTO */}
-                <h3><a href="mailto:someone@example.com?subject=Yes">Send your email</a></h3>
+                <h3><a href="mailto:info@versatileco.me?subject=Yes">Send your email</a></h3>
                     {/* <Form>
                     <Form.Label>Name</Form.Label>
                         <Form.Row>

@@ -27,9 +27,12 @@ import Contact from './routes/contact';
 import Notfound from './notfound';
 import * as serviceWorker from './serviceWorker';
 // import NavbarBrand from 'react-bootstrap/NavbarBrand';
+import gsap from 'gsap'
 
 // NOTE: Scrolling https://www.npmjs.com/package/react-router-scroll ?
 // TODO: nav.navitem.onclick(close nav dropdown) 
+
+const ani = () => gsap.from(".circle",{duration: 1, x: 140, stagger: 0.25})
 
 
 const routing = (
@@ -49,32 +52,32 @@ const routing = (
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto">   
-              <Nav.Item>
+            <Nav className="mr-auto" onClick={ani} >   
+              <Nav.Item className="circle">
                 <NavLink className="nav-link" exact activeClassName="active" to="/">
                   Tone
                 </NavLink>         
               </Nav.Item>
              
-              <Nav.Item>
+              <Nav.Item className="circle">
                 <NavLink className="nav-link" activeClassName="active" to="/clients">
                   Clients
                 </NavLink>         
               </Nav.Item>
 
-              <Nav.Item>
+              <Nav.Item className="circle">
                 <NavLink className="nav-link" activeClassName="active" to="/media">
                   Media
                 </NavLink>         
               </Nav.Item>
 
-              <Nav.Item>
+              <Nav.Item className="circle">
                 <NavLink className="nav-link" activeClassName="active" to="/about">
                   About
                 </NavLink>         
               </Nav.Item>
 
-              <Nav.Item>
+              <Nav.Item className="circle">
                 <NavLink className="nav-link" activeClassName="active" to="/contact">
                   Contact
                 </NavLink>         
@@ -168,6 +171,7 @@ const routing = (
 
     </div>
   </Router>
+// gsap.from(".circle", {duration: 1, delay: 1.5, opacity: 0, y: 150, stagger: 0.25});
 )
 
 ReactDOM.render(

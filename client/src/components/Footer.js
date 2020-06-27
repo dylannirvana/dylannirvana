@@ -1,4 +1,5 @@
 import React from 'react';
+import gsap from 'gsap'
 // import Container from 'react-bootstrap/Container'
 import { 
 } from 'react-router-dom';
@@ -6,6 +7,11 @@ import {
 import Nav from 'react-bootstrap/Nav'
 
 class Footer extends React.Component {
+    componentDidMount() {
+        gsap.from(".thing", {duration: 1, delay: 1.5, opacity: 0, y: 150})
+
+    }
+
     render() {
         return (
                 
@@ -17,7 +23,7 @@ class Footer extends React.Component {
 
                      <Nav className="justify-content-center footer" >
                        
-                        <Nav.Item >
+                        <Nav.Item className="thing" >
                         <p className="tinytype">Copyright 2020</p>
                         </Nav.Item>
 

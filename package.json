@@ -13,6 +13,7 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
+    "gsap": "^3.3.4",
     "react-instagram-embed": "^1.5.0",
     "react-player": "^2.2.0",
     "react-twitter-embed": "^3.0.3",

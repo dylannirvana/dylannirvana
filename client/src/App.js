@@ -12,6 +12,7 @@ import CoverVDO from './components/CoverVDO';
 // import { 
 //   NavLink,
 // } from 'react-router-dom';
+import gsap from 'gsap'
 
 
 // NOTE: App.js is currently placed in the scaffold like a controller, whereas the other components are in the routes directory. How do I want App.js to behave in relation to the other components?
@@ -26,32 +27,44 @@ class App extends Component {
   };
   
   componentDidMount() {
-    this.callApi()
-      .then(res => this.setState({ response: res.express }))
-      .catch(err => console.log(err));
-  }
+    // gsap.from(".circle", {duration: 1, delay: 1.5, opacity: 0, rotate: 150, stagger: 0.25})
+    // gsap.from(".circle", {duration: 1, delay: 1.5, ease: "bounce.out", opacity: 0, x: 150})
+    // gsap.effects.explode(".circle", {
+    //   direction: "up", //can reference any properties that the author decides - in this case "direction".
+    //   duration: 3
+    // });
+    // gsap.from(".circle", {delay: 1.5, duration:2.5, size: 40, ease:"bounce.out", stagger:0.2})
+
+}
+
+
+  // componentDidMount() {
+  //   this.callApi()
+  //     .then(res => this.setState({ response: res.express }))
+  //     .catch(err => console.log(err));
+  // }
   
-  callApi = async () => {
-    const response = await fetch('/api/hello');
-    const body = await response.json();
-    if (response.status !== 200) throw Error(body.message);
+  // callApi = async () => {
+  //   const response = await fetch('/api/hello');
+  //   const body = await response.json();
+  //   if (response.status !== 200) throw Error(body.message);
     
-    return body;
-  };
+  //   return body;
+  // };
   
-  handleSubmit = async e => {
-    e.preventDefault();
-    const response = await fetch('/api/world', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({ post: this.state.post }),
-    });
-    const body = await response.text();
+  // handleSubmit = async e => {
+  //   e.preventDefault();
+  //   const response = await fetch('/api/world', {
+  //     method: 'POST',
+  //     headers: {
+  //       'Content-Type': 'application/json',
+  //     },
+  //     body: JSON.stringify({ post: this.state.post }),
+  //   });
+  //   const body = await response.text();
     
-    this.setState({ responseToPost: body });
-  };
+  //   this.setState({ responseToPost: body });
+  // };
  
 render() {
     return (

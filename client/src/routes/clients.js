@@ -8,7 +8,7 @@ import React from 'react';
 // import Stats from '../components/Stats';
 // import Twitter from '../components/Twitter'
 import Youtube from '../components/Youtube'
-import Soundcloud from '../components/Soundcloud'
+// import Soundcloud from '../components/Soundcloud'
 // import Instagram from '../components/Instagram'
 // import Contact from '../routes/contact'
 import Container from 'react-bootstrap/Container'
@@ -36,14 +36,16 @@ class Clients extends React.Component {
 
                     {/* // TODO: I need the real links here */}
                     <Row>
-                        <Col><a href="https://apple.com"><i className="fab fa-instagram fa-2x"></i></a></Col>
-                        <Col><a href="https://apple.com"><i className="fab fa-youtube fa-2x"></i></a></Col>
-                        <Col><a href="https://apple.com"><i className="fab fa-twitter fa-2x"></i></a></Col>
+                        <Col><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/chaseal3x/"><i className="fab fa-instagram fa-2x"></i></a></Col>
+                        <Col><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=E8PwlwrMG68"><i className="fab fa-youtube fa-2x"></i></a></Col>
+                        <Col><a target="_blank" rel="noopener noreferrer" href="https://music.apple.com/us/album/bad-bitch-blues-feat-lan-party-single/1502357155"><i className="fab fa-apple fa-2x"></i></a></Col>
+                        <Col><a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/chaseoftheisland/bad-bitch-blues-prod-lan-party"><i className="fab fa-soundcloud fa-2x"></i></a></Col>
+                        <Col><a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/track/7yzTbvtslQsgpaFWyZg41V?si=4Krmu9piSOmeUlL1yqhQ7g"><i className="fab fa-spotify fa-2x"></i></a></Col>
                     </Row>
 
                     
 
-                    <Soundcloud />
+                    {/* <Soundcloud /> */}
                     <br />
                     <br />
                     <br />

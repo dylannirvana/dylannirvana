@@ -32,7 +32,9 @@ import gsap from 'gsap'
 // NOTE: Scrolling https://www.npmjs.com/package/react-router-scroll ?
 // TODO: nav.navitem.onclick(close nav dropdown) 
 
-const ani = () => gsap.from(".circle",{duration: 1, x: 140, stagger: 0.25})
+// const ani = () => gsap.from(this,{duration: 1, x: 140, stagger: 0.25})
+// const log = () => console.log(this)
+
 
 
 const routing = (
@@ -52,32 +54,32 @@ const routing = (
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto" onClick={ani} >   
-              <Nav.Item className="circle">
+            <Nav className="mr-auto" >   
+              <Nav.Item onClick={() => gsap.from(".circle1", {ease:"bounce", scale: 0.5, duration: 1, x: -14})}  className="circle1">
                 <NavLink className="nav-link" exact activeClassName="active" to="/">
                   Tone
                 </NavLink>         
               </Nav.Item>
              
-              <Nav.Item className="circle">
+              <Nav.Item onClick={() => gsap.from(".circle2", {ease:"bounce", scale: 0.5, duration: 1, x: -14})}  className="circle2">
                 <NavLink className="nav-link" activeClassName="active" to="/clients">
                   Clients
                 </NavLink>         
               </Nav.Item>
 
-              <Nav.Item className="circle">
+              <Nav.Item onClick={() => gsap.from(".circle3", {ease:"bounce", scale: 0.5, duration: 1, x: -14})}  className="circle3">
                 <NavLink className="nav-link" activeClassName="active" to="/media">
                   Media
                 </NavLink>         
               </Nav.Item>
 
-              <Nav.Item className="circle">
+              <Nav.Item onClick={() => gsap.from(".circle4", {ease:"bounce", scale: 0.5, duration: 1, x: -14})}  className="circle4">
                 <NavLink className="nav-link" activeClassName="active" to="/about">
                   About
                 </NavLink>         
               </Nav.Item>
 
-              <Nav.Item className="circle">
+              <Nav.Item onClick={() => gsap.from(".circle5", {ease:"bounce", scale: 0.5, duration: 1, x: -14})}  className="circle5">
                 <NavLink className="nav-link" activeClassName="active" to="/contact">
                   Contact
                 </NavLink>         

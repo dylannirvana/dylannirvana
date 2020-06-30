@@ -10,29 +10,19 @@
 // ===== VARIABLES
 
 // COLORS 
-// NOTE: These are test colors
-
-// Triadic
-$mediumred: #961120;
-$yellow: #E3DB19;
-$brightred: #E3021C;
-$skyblue: #19A1E3;
-$blue: #096996;
-
-// Monochromatic
-$darkred: #63010C;
-$lightred: #E8485A;
-$maroon: #631F27;
-$ketchup: #B00216;
+$green: #018265;
+$purple: #9d0170;
 $gray: #282c34;
 
-// Color adjustments
-$dk-sky: darken($skyblue, 5%);
+// // Color adjustments
+$newpollution: darken($green, 5%);
+
+$pollution: saturate($newpollution, 35%);
+$toxicwaste: darken($purple, 10%);
+
 $lt-gray: lighten($gray, 55%);
 $dk-gray: darken($gray, 10%);
-$lt-brightred: lighten($brightred, 10%);
-$dk-yellow: darken($yellow, 20%);
-$lt-yellow: lighten($yellow, 40%);
+
 
 // ===== BODY
 // Background
@@ -45,8 +35,8 @@ body {
 // ===== Type
 // Type
 $body-color: $lt-gray;
-$link-color: $mediumred;
-$link-hover-color: $lightred !default;
+$link-color: $toxicwaste;
+$link-hover-color: $pollution !default;
 .active {
     color: white;
   }
@@ -132,7 +122,7 @@ a.nav-link, .navbar-brand {
     color: $lt-gray !important;
   }
   &:hover {
-    color: $yellow !important;
+    color: white !important;
   }
 }
 

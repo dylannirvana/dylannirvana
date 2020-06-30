@@ -233,7 +233,24 @@ iframe.instagram-embed {
   margin-right: 0px !important;
 }
 
+// ===== CARDS
+.card {
+  text-align: left;
+  padding: 4px;
+  margin-bottom: 12px;
 
+  .card-title {
+    max-height: 48px;
+    overflow: hidden;
+  }
+
+  .card-text {
+    padding-left: 16px;
+    padding-top: 4px;
+    max-height: 22px;
+    overflow: hidden;
+  }
+}
 
 
 

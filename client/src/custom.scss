@@ -116,6 +116,11 @@ nav.navbar.bg-dark {
   // border-bottom: 1px solid $gray;
 }
 
+#basic-navbar-nav {
+  margin-left: 85%;
+}
+
+
 // COLOR
 // Links
 a.nav-link, .navbar-brand {
@@ -127,7 +132,7 @@ a.nav-link, .navbar-brand {
     color: $lt-gray !important;
   }
   &:hover {
-    color: $gray !important;
+    color: $yellow !important;
   }
 }
 

@@ -15,10 +15,14 @@ class Contact extends React.Component {
     render() {
         return (
             <Container className="section">
+                <br />
+                <br />
+                <br />
+                <br />
                 <h2>Contact Tone</h2>
                 <p>For any questions or inquiries, feel free to reach us here:</p>
                 {/* MAILTO */}
-                <h3><a href="mailto:info@versatileco.me?subject=Yes">info@versatileco.me</a></h3>
+                <h3 className="email" ><a href="mailto:info@versatileco.me">info@versatileco.me</a></h3>
                     {/* <Form>
                     <Form.Label>Name</Form.Label>
                         <Form.Row>

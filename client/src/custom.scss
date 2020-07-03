@@ -66,7 +66,7 @@ $nav-font: $headings-font-family;
 
 // ===== FONT AWESOME
 i.fab {
-  color: white;
+  color: $lt-gray;
 }
 
 // ===== VDO
@@ -163,8 +163,15 @@ a.nav-link, .navbar-brand {
   z-index: 1;
 
   font-size: .128rem;
-  color: $gray;
+  color: $lt-gray;
   padding-top: .8rem;
+
+  i.fab {
+    color: $lt-gray;
+    font-size: 1rem !important;
+    padding-left: 22px;
+    padding-right: 22px;
+  }
 }
 
 // .tinytype {
@@ -212,7 +219,6 @@ form {
 // ===== REACT PLAYER
 
 
-// ===== BOOTSTRAP IMPORT AT END
 .player-wrapper {
   position: relative;
   padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
@@ -255,6 +261,7 @@ iframe.instagram-embed {
 }
 
 
+// ===== BOOTSTRAP IMPORT AT END
 
 /* import bootstrap to set changes at END? */
 @import "~bootstrap/scss/bootstrap";

@@ -12,13 +12,15 @@
 // COLORS 
 $green: #018265;
 $purple: #9d0170;
+$red: red;
 $gray: #282c34;
+$yellow: yellow;
 
 // // Color adjustments
-$newpollution: darken($green, 5%);
+$newpollution: darken($yellow, 5%);
 
 $pollution: saturate($newpollution, 35%);
-$toxicwaste: darken($purple, 15%);
+$toxicwaste: darken($red, 25%);
 
 $lt-gray: lighten($gray, 55%);
 $dk-gray: darken($gray, 10%);
@@ -153,6 +155,11 @@ a.nav-link, .navbar-brand {
 
 .heading {
   padding-top: 1rem;
+}
+
+.subhead {
+  margin-top: 2rem;
+  margin-bottom: .8rem;
 }
 
 .footer {

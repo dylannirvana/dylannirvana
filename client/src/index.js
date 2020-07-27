@@ -10,30 +10,13 @@ import {
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
-// import Card from 'react-bootstrap/Card'
-// import Button from 'react-bootstrap/Button'
-
-// import Container from 'react-bootstrap/Container'
-// import './index.css';
-import './custom.scss'; // Works! Compiled by WebPack????
+import './custom.scss'; 
 import App from './App';
-// import logo from './tone150.png';
 import Footer from './components/Footer'
-import Media from './routes/media';
-import Clients from './routes/clients';
-import About from './routes/About';
-// import Clients from './routes/clients';
-import Contact from './routes/contact';
 import Notfound from './notfound';
 import * as serviceWorker from './serviceWorker';
-// import NavbarBrand from 'react-bootstrap/NavbarBrand';
 import gsap from 'gsap'
-
-// NOTE: Scrolling https://www.npmjs.com/package/react-router-scroll ?
-// TODO: nav.navitem.onclick(close nav dropdown) 
-
-// const ani = () => gsap.from(this,{duration: 1, x: 140, stagger: 0.25})
-// const log = () => console.log(this)
+import SignatureStory from './routes/SignatureStory';
 
 
 
@@ -43,31 +26,23 @@ const routing = (
       <div className="navbar-container">
         <Navbar collapseOnSelect className="navbar-dark" expand="none" bg="dark">
 
-          {/* <NavbarBrand>
-            <Nav.Item>
-              <NavLink className="nav-link" exact activeClassName="active" to="/">
-              Versatile Tone Group       
-              </NavLink>         
-            </Nav.Item>
-          </NavbarBrand> */}
-
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto" >   
               <Nav.Item onClick={() => gsap.from(".circle1", {ease:"bounce", scale: 0.5, duration: 1, x: -14})}  className="circle1">
                 <NavLink className="nav-link" exact activeClassName="active" to="/">
-                  Tone
+                  Dylan Nirvana
                 </NavLink>         
               </Nav.Item>
              
               <Nav.Item onClick={() => gsap.from(".circle2", {ease:"bounce", scale: 0.5, duration: 1, x: -14})}  className="circle2">
-                <NavLink className="nav-link" activeClassName="active" to="/clients">
-                  Clients
+                <NavLink className="nav-link" activeClassName="active" to="/story">
+                  Story
                 </NavLink>         
               </Nav.Item>
 
-              <Nav.Item onClick={() => gsap.from(".circle3", {ease:"bounce", scale: 0.5, duration: 1, x: -14})}  className="circle3">
+              {/* <Nav.Item onClick={() => gsap.from(".circle3", {ease:"bounce", scale: 0.5, duration: 1, x: -14})}  className="circle3">
                 <NavLink className="nav-link" activeClassName="active" to="/media">
                   Media
                 </NavLink>         
@@ -83,7 +58,7 @@ const routing = (
                 <NavLink className="nav-link" activeClassName="active" to="/contact">
                   Contact
                 </NavLink>         
-              </Nav.Item>
+              </Nav.Item> */}
               
             </Nav>
           </Navbar.Collapse>
@@ -133,11 +108,11 @@ const routing = (
         <Route exact path="/" component={App} />
         {/* <Route path="/artists/:id" component={Artists} />
         <Route path="/artists" component={Artists} /> */}
-        <Route path="/clients/:id" component={Clients} />
-        <Route path="/clients" component={Clients} />
-        <Route path="/media" component={Media} />
-        <Route path="/about" component={About} />
-        <Route path="/contact" component={Contact} />
+        {/* <Route path="/clients/:id" component={Clients} /> */}
+        {/* <Route path="/clients" component={Clients} />
+        <Route path="/media" component={Media} /> */}
+        <Route path="/story" component={SignatureStory} />
+        {/* <Route path="/contact" component={Contact} /> */}
         <Route component={Notfound} />
       </Switch> 
       {/* </Container> */}

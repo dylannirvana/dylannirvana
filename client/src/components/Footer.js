@@ -23,9 +23,9 @@ class Footer extends React.Component {
                     </div> */}
 
                      <Nav className="justify-content-center footer" >
-                        <NavItem><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/v.tonegroup/"><i className="fab fa-instagram fa-2x"></i></a></NavItem>
+                        {/* <NavItem><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/v.tonegroup/"><i className="fab fa-instagram fa-2x"></i></a></NavItem> */}
                         <Nav.Item><p className="tinytype">Copyright 2020</p></Nav.Item>
-                        <NavItem><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/SetThe_Tone"><i className="fab fa-twitter fa-2x"></i></a></NavItem>
+                        {/* <NavItem><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/SetThe_Tone"><i className="fab fa-twitter fa-2x"></i></a></NavItem> */}
 
                     </Nav>
 

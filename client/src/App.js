@@ -4,6 +4,8 @@ import React, { Component } from 'react';
 // import Container from 'react-bootstrap/Container'
 import './App.css';
 import CoverVDO from './components/CoverVDO';
+import SignatureStory from './routes/SignatureStory';
+// import Youtube from './components/Youtube';
 // import Story from './components/Story';
 // import Vendors from './routes/vendors';
 // import Contact from './routes/contact';
@@ -79,6 +81,8 @@ render() {
               }} />
         </header> */}
         <CoverVDO />
+        <SignatureStory />
+        {/* <Youtube /> */}
             
         {/* <Container>
           <Story />

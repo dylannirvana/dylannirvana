@@ -1,6 +1,7 @@
 {
-  "name": "vtg-server",
+  "name": "dylannirvana",
   "version": "0.1.0",
+  "author": "Dylan Nirvana",
   "private": true,
   "proxy": "http://localhost:5000/",
   "dependencies": {

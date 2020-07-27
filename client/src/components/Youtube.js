@@ -25,10 +25,12 @@ class Youtube extends Component {
                     <ReactPlayer
                     // style={{ paddingTop: "56.25%" }}
                     className='react-player'
-                    url='https://www.youtube.com/watch?v=E8PwlwrMG68'
-                    width='100%'
-                    height='100%'
-                    controls={true}
+                    url='https://youtu.be/KTGvsaxMUZI'
+                    width='100vw'
+                    height='100vh'
+                    overflow='hidden'
+                    controls={false}
+                    autoplay={true}
                     />
                 </div>
                 

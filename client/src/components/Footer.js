@@ -5,7 +5,7 @@ import {
 } from 'react-router-dom';
 // import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
-import NavItem from 'react-bootstrap/NavItem';
+// import NavItem from 'react-bootstrap/NavItem';
 
 class Footer extends React.Component {
     componentDidMount() {

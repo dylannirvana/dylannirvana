@@ -33,7 +33,7 @@ class SignatureStory extends React.Component {
 
                     <p>One of the last bands to regularly perform at CBGB's before it was shut down, Dylan Nirvana began working closely with Billy Ficca from the legendary band Television, which was one of the first (if not the first) bands to play there. </p> 
 
-                    <p>Their new band, The Bad Flowers flew to Texas to record Revolutionary Road. The sessions were recorded on old school 2" tape and produced by Jim Wirt (Fiona Apple). Dylan Nirvana on vocals and guitar. Billy Ficca on drums. With a 1965 Fender Bassman and Marshally Plexi amps, the "Bloody Finger" distortion pedal and Moog synthesizers, the music is so young and alive. But it is not yet released. </p>
+                    {/* <p>Their new band, The Bad Flowers flew to Texas to record Revolutionary Road. The sessions were recorded on old school 2" tape and produced by Jim Wirt (Fiona Apple). Dylan Nirvana on vocals and guitar. Billy Ficca on drums. With a 1965 Fender Bassman and Marshall Plexi amps, the "Bloody Finger" distortion pedal and Moog synthesizers, the music is so young and alive. But it is not yet released. </p> */}
                     
                     <br />
                     <br />

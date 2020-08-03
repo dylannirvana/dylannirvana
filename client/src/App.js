@@ -5,6 +5,9 @@ import React, { Component } from 'react';
 import './App.css';
 import CoverVDO from './components/CoverVDO';
 import SignatureStory from './routes/SignatureStory';
+import Soundcloud from './components/Soundcloud';
+import MailingList from './components/Mailinglist';
+import Container from 'react-bootstrap/Container';
 // import Youtube from './components/Youtube';
 // import Story from './components/Story';
 // import Vendors from './routes/vendors';
@@ -80,8 +83,16 @@ render() {
               height: '100vh',
               }} />
         </header> */}
-        <CoverVDO />
-        <SignatureStory />
+          <CoverVDO />
+        <Container>
+          <SignatureStory />
+        </Container>
+         <div>
+          <Soundcloud />
+         </div>
+         <div>
+          <MailingList />
+         </div>
         {/* <Youtube /> */}
             
         {/* <Container>

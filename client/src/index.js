@@ -17,6 +17,8 @@ import Notfound from './notfound';
 import * as serviceWorker from './serviceWorker';
 import gsap from 'gsap'
 import SignatureStory from './routes/SignatureStory';
+import Soundcloud from './components/Soundcloud';
+import MailingList from './components/Mailinglist';
 
 
 
@@ -38,23 +40,23 @@ const routing = (
              
               <Nav.Item onClick={() => gsap.from(".circle2", {ease:"bounce", scale: 0.5, duration: 1, x: -14})}  className="circle2">
                 <NavLink className="nav-link" activeClassName="active" to="/story">
-                  Story
+                  His Story
                 </NavLink>         
               </Nav.Item>
 
-              {/* <Nav.Item onClick={() => gsap.from(".circle3", {ease:"bounce", scale: 0.5, duration: 1, x: -14})}  className="circle3">
-                <NavLink className="nav-link" activeClassName="active" to="/media">
-                  Media
+              <Nav.Item onClick={() => gsap.from(".circle3", {ease:"bounce", scale: 0.5, duration: 1, x: -14})}  className="circle3">
+                <NavLink className="nav-link" activeClassName="active" to="/soundcloud">
+                  Get Automatic
                 </NavLink>         
               </Nav.Item>
 
               <Nav.Item onClick={() => gsap.from(".circle4", {ease:"bounce", scale: 0.5, duration: 1, x: -14})}  className="circle4">
-                <NavLink className="nav-link" activeClassName="active" to="/about">
-                  About
+                <NavLink className="nav-link" activeClassName="active" to="/mailinglist">
+                  Be on it
                 </NavLink>         
               </Nav.Item>
 
-              <Nav.Item onClick={() => gsap.from(".circle5", {ease:"bounce", scale: 0.5, duration: 1, x: -14})}  className="circle5">
+              {/* <Nav.Item onClick={() => gsap.from(".circle5", {ease:"bounce", scale: 0.5, duration: 1, x: -14})}  className="circle5">
                 <NavLink className="nav-link" activeClassName="active" to="/contact">
                   Contact
                 </NavLink>         
@@ -66,42 +68,7 @@ const routing = (
       </div> 
     
 
-      {/* <Navbar bg="dark" expand="md">
-        <Navbar.Toggle aria-controls="theNavbar" />
-        <Navbar.Collapse className="justify-content-center"  id="theNavbar">
-
-          <Nav.Item>
-            <NavLink className="nav-link" exact activeClassName="active" to="/">
-            Talent Agency for Music       
-            </NavLink>         
-          </Nav.Item>
-
-          <Nav.Item>
-            <NavLink className="nav-link" activeClassName="active" to="/artists">
-              Clients
-            </NavLink>         
-          </Nav.Item>
-
-          <Nav.Item>
-            <NavLink className="nav-link" activeClassName="active" to="/media">
-              Media
-            </NavLink>         
-          </Nav.Item>
-
-          <Nav.Item>
-            <NavLink className="nav-link" activeClassName="active" to="/about">
-              About
-            </NavLink>         
-          </Nav.Item>
-
-          <Nav.Item>
-            <NavLink className="nav-link" exact activeClassName="active" to="/contact">
-              Contact
-            </NavLink>         
-          </Nav.Item>
-
-        </Navbar.Collapse>
-      </Navbar> */}
+     
 
       {/* <Container> */}
       <Switch>
@@ -112,7 +79,8 @@ const routing = (
         {/* <Route path="/clients" component={Clients} />
         <Route path="/media" component={Media} /> */}
         <Route path="/story" component={SignatureStory} />
-        {/* <Route path="/contact" component={Contact} /> */}
+        <Route path="/soundcloud" component={Soundcloud} />
+        <Route path="/mailinglist" component={MailingList} />
         <Route component={Notfound} />
       </Switch> 
       {/* </Container> */}

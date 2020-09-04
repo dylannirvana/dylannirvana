@@ -14,7 +14,7 @@ class Eclipse extends React.Component {
 
                     <p>Special thanks to Jim Stafford, Angie and Uller Bailey for keeping the flame of music alive. Please tell your friends about Live From Eclipse and please come to this live online event!! </p>
 
-                    <h5>Here is the <a href="https://www.facebook.com/events/690086791580620">Facebook Event.</a> Or just go to the live broadcast Friday Sept 4 at 7pm and 9pm at <a href="https://eclipserecording.com/live/">Eclipse Studios</a></h5>
+                    <h5>Here is the <a href="https://www.facebook.com/events/690086791580620">Facebook Event.</a> Or just go to the <a href="https://eclipserecording.com/live/">live broadcast </a>Friday Sept 4 at 7pm and 9pm.</h5>
                     
                     
                 </Container>

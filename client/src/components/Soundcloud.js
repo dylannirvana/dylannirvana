@@ -81,7 +81,7 @@ class Soundcloud extends Component {
                 Pretty girls never know what they want
                 </p>
                 <p>
-                words & music Dylan Nirvana  ©2008 BMI</p>
+                words & music Dylan Nirvana  ©2020 BMI</p>
                </Container>
                {/* <AppleMusic /> */}
             </div>

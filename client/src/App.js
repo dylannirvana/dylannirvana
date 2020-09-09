@@ -8,7 +8,6 @@ import SignatureStory from './routes/SignatureStory';
 import Soundcloud from './components/Soundcloud';
 import MailingList from './components/Mailinglist';
 import Container from 'react-bootstrap/Container';
-import Eclipse from './components/Eclipse';
 // import Youtube from './components/Youtube';
 // import Story from './components/Story';
 // import Vendors from './routes/vendors';
@@ -86,7 +85,6 @@ render() {
         </header> */}
           <CoverVDO />
         <Container>
-          <Eclipse />
           <SignatureStory />
         </Container>
          <div>

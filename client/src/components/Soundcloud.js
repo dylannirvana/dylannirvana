@@ -22,7 +22,11 @@ class Soundcloud extends Component {
             <div className="section">
                  {/* SOUNDCLOUD */}
                  <h3>Automatic</h3>
-                 <p>From the record Anne Boleyn by Dylan Nirvana</p>
+                 <Container>
+                     {/* <p>From the record Anne Boleyn by Dylan Nirvana</p> */}
+                 <p>Automatic is the opening track to the racy record titled Anne Boleyn. Dylan Nirvana retells steamy bits of English history with Hard Rock for modern times, Marshall amps blaring. Sick with wit and catchy as the Black Death, the Queen of a Thousand Days loses her head. And so might you.</p> 
+
+                 </Container>
 
                 <div className='player-wrapper-soundcloud'>
                     <ReactPlayer

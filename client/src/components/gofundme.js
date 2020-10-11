@@ -6,14 +6,15 @@ class Gofundme extends React.Component {
     render() {
         return (
                 <Container className="section">
-                    <h1>Ive gotta get to Cleveland</h1>
+                    <h1>Get an <span style={{color: "red"}} >unreleased</span>  Dylan Nirvana track!</h1>
                     <p>
-                    Help me record a Hit Single! Crazy luck strikes again! I have another opportunity to record with Platinum Producer Jim Wirt (Fiona Apple, Incubus) at Superior Sound with Tragic Hero Records in Cleveland, home of Pere Ubu and the Rock n' Roll Hall of Fame. 
+                    Do you Love Rock? Get an unreleased Dylan Nirvana track! Help us record these new songs and I will give you a track before it is released on Spotify and Apple Music! We are recording my new songs: 
                     </p>
-                    <p>
-                    We will be recording my new song, This is the Greatest Day of My Life, and other songs that I haven't even finished writing yet! Ack!
-
-                    </p>
+                    <h5>This is the Greatest Day of My Life</h5>
+                    <h5>Are You a Materialist?</h5>
+                    {/* <h5>Missing (remastered)</h5>
+                    <h5>Dont Let This Be Their Last Christmas (co-written with Gary West from the Chemtrails)</h5> */}
+                    <br />
                     <Iframe src="https://www.gofundme.com/f/new-recordings-with-platinum-producer/widget/large/"
         width="450px"
         height="520px"

@@ -88,14 +88,12 @@ render() {
         <Container>
           <Gofundme />
           <SignatureStory />
-          <br />
-          <br />
         </Container>
          <div>
-          {/* <Soundcloud /> */}
+          <Soundcloud />
          </div>
          <div>
-          {/* <MailingList /> */}
+          <MailingList />
          </div>
         {/* <Youtube /> */}
             

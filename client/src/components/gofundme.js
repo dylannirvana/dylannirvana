@@ -6,7 +6,7 @@ class Gofundme extends React.Component {
     render() {
         return (
                 <Container className="section">
-                    <h1>Get an <span style={{color: "red"}} >unreleased</span>  Dylan Nirvana track!</h1>
+                    <h1>Get an <span style={{color: "red"}} >unreleased</span> Dylan Nirvana track!</h1>
                     <p>
                     Do you Love Rock? Get an unreleased Dylan Nirvana track! Help us record these new songs and I will give you a track before it is released on Spotify and Apple Music! We are recording my new songs: 
                     </p>

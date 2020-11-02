@@ -8,7 +8,7 @@ import SignatureStory from './routes/SignatureStory';
 import Soundcloud from './components/Soundcloud';
 import MailingList from './components/Mailinglist';
 import Container from 'react-bootstrap/Container';
-import Gofundme from './components/gofundme';
+// import Gofundme from './components/gofundme';
 // import Youtube from './components/Youtube';
 // import Story from './components/Story';
 // import Vendors from './routes/vendors';
@@ -86,7 +86,7 @@ render() {
         </header> */}
           <CoverVDO />
         <Container>
-          <Gofundme />
+          {/* <Gofundme /> */}
           <SignatureStory />
         </Container>
          <div>

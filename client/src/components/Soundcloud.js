@@ -21,17 +21,18 @@ class Soundcloud extends Component {
         return (
             <div className="section">
                  {/* SOUNDCLOUD */}
-                 <h3>Automatic</h3>
+                 {/* <h3>Automatic</h3> */}
+                 <h3>Rebound Girl</h3>
                  <Container>
                      {/* <p>From the record Anne Boleyn by Dylan Nirvana</p> */}
-                 <p>Automatic is the opening track to the racy record titled Anne Boleyn. Dylan Nirvana retells steamy bits of English history with Hard Rock for modern times, Marshall amps blaring. Sick with wit and catchy as the Black Death, the Queen of a Thousand Days loses her head. And so might you.</p> 
+                 {/* <p>Automatic is the opening track to the racy record titled Anne Boleyn. Dylan Nirvana retells steamy bits of English history with Hard Rock for modern times, Marshall amps blaring. Sick with wit and catchy as the Black Death, the Queen of a Thousand Days loses her head. And so might you.</p>  */}
 
                  </Container>
 
                 <div className='player-wrapper-soundcloud'>
                     <ReactPlayer
                     className='react-player'
-                    url='https://soundcloud.com/dylannirvana/automatic-1'
+                    url='https://soundcloud.com/dylannirvana/rebound-girl'
                     width='100%'
                     height='auto'
                     />
@@ -46,7 +47,7 @@ class Soundcloud extends Component {
                     <br />
                     <br />
                     <br />
-               <p>
+               {/* <p>
                 I know a girl whose love never runs out of batteries
                 She's a regular orgasm factory
                 She don't get tired
@@ -83,6 +84,48 @@ class Soundcloud extends Component {
                 She's quite an addict
                 You can have her it doesn't matter
                 Pretty girls never know what they want
+                </p> */}
+
+                <p>
+                Rebound girl
+                She is the ticket's gonna take it away
+                Rebound girl
+                Now I got a feeling and it's here to stay
+                Rebound girl
+
+                I've been so down
+                (When will you be coming 'round)
+                I've been so out
+
+                And I can't get get off of this roundabout 
+                I see the flames coming and it's nothing to tout
+                That I got burned and I can't get over her
+                'till my
+
+                Rebound girl
+                She is the ticket's gonna take it away
+                Rebound girl
+                Now I gotta feeling and it's here to stay
+                Rebound girl
+
+                I've been shot down
+                (and you can see it in my eyes)
+                Right out of the skies
+
+                And I don't know why
+                To tell it like it is 
+                I should just forget it
+                But I can't seem to let it
+                That I got burned
+                And I can't get over her
+                'til my... 
+
+                Rebound girl
+                She is the ticket's gonna take it away
+                Rebound girl
+                Now I gotta feeling and it's here to stay
+                Rebound girl
+
                 </p>
                 <p>
                 words & music Dylan Nirvana  ©2020 BMI</p>

@@ -17,7 +17,7 @@ import Notfound from './notfound';
 import * as serviceWorker from './serviceWorker';
 import gsap from 'gsap'
 import SignatureStory from './routes/SignatureStory';
-import Soundcloud from './components/Soundcloud';
+// import Soundcloud from './components/Soundcloud';
 import MailingList from './components/Mailinglist';
 
 

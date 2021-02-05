@@ -6,7 +6,7 @@ import './App.css';
 import CoverVDO from './components/CoverVDO';
 import SignatureStory from './routes/SignatureStory';
 import Soundcloud from './components/Soundcloud';
-import MailingList from './components/Mailinglist';
+// import MailingList from './components/Mailinglist';
 import Container from 'react-bootstrap/Container';
 // import Gofundme from './components/gofundme';
 // import Youtube from './components/Youtube';

@@ -22,7 +22,7 @@ class Soundcloud extends Component {
             <div className="section">
                  {/* SOUNDCLOUD */}
                  {/* <h3>Automatic</h3> */}
-                 <h3>Rebound Girl</h3>
+                 <h3>This is the Greatest Day of my Life</h3>
                  <Container>
                      {/* <p>From the record Anne Boleyn by Dylan Nirvana</p> */}
                  {/* <p>Automatic is the opening track to the racy record titled Anne Boleyn. Dylan Nirvana retells steamy bits of English history with Hard Rock for modern times, Marshall amps blaring. Sick with wit and catchy as the Black Death, the Queen of a Thousand Days loses her head. And so might you.</p>  */}
@@ -32,11 +32,10 @@ class Soundcloud extends Component {
                 <div className='player-wrapper-soundcloud'>
                     <ReactPlayer
                     className='react-player'
-                    url='https://soundcloud.com/dylannirvana/rebound-girl'
+                    url='https://soundcloud.com/dylannirvana/this-is-the-greatest-day-of-my-life'
                     width='100%'
                     height='auto'
                     />
-                    <br />
                     <br />
                     <br />
                     <br />
@@ -86,7 +85,7 @@ class Soundcloud extends Component {
                 Pretty girls never know what they want
                 </p> */}
 
-                <p>
+                {/* <p>
                 Rebound girl
                 She is the ticket's gonna take it away
                 Rebound girl
@@ -125,10 +124,15 @@ class Soundcloud extends Component {
                 Rebound girl
                 Now I gotta feeling and it's here to stay
                 Rebound girl
+                </p> */}
 
-                </p>
                 <p>
-                words & music Dylan Nirvana  ©2020 BMI</p>
+                Words & music Dylan Nirvana  ©2021 BMI</p>
+                
+                <h3><span style={{color: "red"}}>Dylan Nirvana</span> A full heave of the cutlery. A guitarist's revenge on the status quo. <span style={{color: "red"}}>“Like Elvis Costello. Morrissey meets Motörhead”</span> - The Village Voice <span style={{color: "red"}}>“A harder early Bowie”</span> - Country Music Awards</h3>
+                <br />
+                <br />
+                <br />
                </Container>
                {/* <AppleMusic /> */}
             </div>

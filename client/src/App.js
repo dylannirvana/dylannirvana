@@ -93,7 +93,7 @@ render() {
           <Soundcloud />
          </div>
          <div>
-          <MailingList />
+          {/* <MailingList /> */}
          </div>
         {/* <Youtube /> */}
             

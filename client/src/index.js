@@ -38,30 +38,24 @@ const routing = (
                 </NavLink>         
               </Nav.Item>
              
-              <Nav.Item onClick={() => gsap.from(".circle2", {ease:"bounce", scale: 0.5, duration: 1, x: -14})}  className="circle2">
+              {/* <Nav.Item onClick={() => gsap.from(".circle2", {ease:"bounce", scale: 0.5, duration: 1, x: -14})}  className="circle2">
                 <NavLink className="nav-link" activeClassName="active" to="/story">
                   His Story
                 </NavLink>         
-              </Nav.Item>
+              </Nav.Item> */}
 
               <Nav.Item onClick={() => gsap.from(".circle3", {ease:"bounce", scale: 0.5, duration: 1, x: -14})}  className="circle3">
-                <NavLink className="nav-link" activeClassName="active" to="/soundcloud">
-                  Get Automatic
-                </NavLink>         
+                <a className="nav-link" activeClassName="active" href="https://soundcloud.com/dylannirvana/">
+                  Pre-release: This is the Greatest Day of my Life
+                </a>         
               </Nav.Item>
 
-              <Nav.Item onClick={() => gsap.from(".circle4", {ease:"bounce", scale: 0.5, duration: 1, x: -14})}  className="circle4">
+              {/* <Nav.Item onClick={() => gsap.from(".circle4", {ease:"bounce", scale: 0.5, duration: 1, x: -14})}  className="circle4">
                 <NavLink className="nav-link" activeClassName="active" to="/mailinglist">
                   Be on it
                 </NavLink>         
-              </Nav.Item>
-
-              {/* <Nav.Item onClick={() => gsap.from(".circle5", {ease:"bounce", scale: 0.5, duration: 1, x: -14})}  className="circle5">
-                <NavLink className="nav-link" activeClassName="active" to="/contact">
-                  Contact
-                </NavLink>         
               </Nav.Item> */}
-              
+
             </Nav>
           </Navbar.Collapse>
           </Navbar>
@@ -79,7 +73,7 @@ const routing = (
         {/* <Route path="/clients" component={Clients} />
         <Route path="/media" component={Media} /> */}
         <Route path="/story" component={SignatureStory} />
-        <Route path="/soundcloud" component={Soundcloud} />
+        {/* <Route path="/soundcloud" href="https://soundcloud.com/dylannirvana/this-is-the-greatest-day-of-my-life" /> */}
         <Route path="/mailinglist" component={MailingList} />
         <Route component={Notfound} />
       </Switch> 

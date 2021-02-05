@@ -193,7 +193,9 @@ a.nav-link, .navbar-brand {
 }
 
 div.container {
-  width: 50rem;
+  @media (min-width: 767px) {
+    width: 50rem;
+  }
 }
 
 // ===== FORMS

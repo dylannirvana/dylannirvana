@@ -85,13 +85,15 @@ render() {
               }} />
         </header> */}
           <CoverVDO />
-        <Container>
-          {/* <Gofundme /> */}
-          <SignatureStory />
-        </Container>
+
          <div>
           <Soundcloud />
          </div>
+
+        {/* <Container>
+          <SignatureStory />
+        </Container> */}
+
          <div>
           {/* <MailingList /> */}
          </div>

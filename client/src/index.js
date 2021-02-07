@@ -38,15 +38,15 @@ const routing = (
                 </NavLink>         
               </Nav.Item>
              
-              {/* <Nav.Item onClick={() => gsap.from(".circle2", {ease:"bounce", scale: 0.5, duration: 1, x: -14})}  className="circle2">
+              <Nav.Item onClick={() => gsap.from(".circle2", {ease:"bounce", scale: 0.5, duration: 1, x: -14})}  className="circle2">
                 <NavLink className="nav-link" activeClassName="active" to="/story">
-                  His Story
+                  Crazy Story
                 </NavLink>         
-              </Nav.Item> */}
+              </Nav.Item>
 
               <Nav.Item onClick={() => gsap.from(".circle3", {ease:"bounce", scale: 0.5, duration: 1, x: -14})}  className="circle3">
                 <a className="nav-link" activeClassName="active" href="https://soundcloud.com/dylannirvana/">
-                  Pre-release: This is the Greatest Day of my Life
+                  SoundCloud
                 </a>         
               </Nav.Item>
 

@@ -21,7 +21,12 @@ class Soundcloud extends Component {
         return (
             <div className="section">
                  {/* SOUNDCLOUD */}
-                 {/* <h3>Automatic</h3> */}
+
+                 <h1><span style={{color: "red"}}>Dylan Nirvana</span></h1>
+                    {/* Signature Story */}
+                    <p>Tired of your little lockdown?</p>
+                    <br />
+                    <br />
                  <h3>This is the Greatest Day of my Life</h3>
                  <Container>
                      {/* <p>From the record Anne Boleyn by Dylan Nirvana</p> */}
@@ -128,7 +133,7 @@ class Soundcloud extends Component {
 
                 <p>
                 Words & music Dylan Nirvana  ©2021 BMI</p>
-                
+                <br />
                 <h3><span style={{color: "red"}}>Dylan Nirvana</span> A full heave of the cutlery. A guitarist's revenge on the status quo. <span style={{color: "red"}}>“Like Elvis Costello. Morrissey meets Motörhead”</span> - The Village Voice <span style={{color: "red"}}>“A harder early Bowie”</span> - Country Music Awards</h3>
                 <br />
                 <br />

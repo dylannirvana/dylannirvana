@@ -20,7 +20,7 @@ $yellow: yellow;
 $newpollution: darken($yellow, 5%);
 
 $pollution: saturate($newpollution, 35%);
-$toxicwaste: darken($red, 25%);
+$toxicwaste: darken($red, 0%);
 
 $lt-gray: lighten($gray, 55%);
 $dk-gray: darken($gray, 10%);
@@ -48,7 +48,9 @@ $link-hover-color: $pollution !default;
 // Fonts
 // $font-family-sans-serif: Gotham, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
 
-$font-family-sans-serif: "Gotham A", "Gotham B" !default;
+// $font-family-sans-serif: "Gotham A", "Gotham B" !default;
+$font-family-sans-serif: "source-code-pro", "Menlo", "Monaco", "Consolas", 'Courier New',
+monospace;
 $font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 $font-family-base: $font-family-sans-serif !default;
 

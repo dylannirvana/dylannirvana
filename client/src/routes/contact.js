@@ -19,7 +19,7 @@ class Contact extends React.Component {
                 <h4>Contact Icarian Records</h4>
                 <p>One-stop easy clearance on publishing and masters. For questions or inquiries:</p>
                 {/* MAILTO */}
-                <h5 className="email" ><a href="mailto:management@dylannirvana.com">management@dylannirvana.com</a></h5>
+                <h6 className="email" ><a href="mailto:management@dylannirvana.com">management@dylannirvana.com</a></h6>
                     {/* <Form>
                     <Form.Label>Name</Form.Label>
                         <Form.Row>

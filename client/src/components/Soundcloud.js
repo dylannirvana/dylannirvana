@@ -134,7 +134,7 @@ class Soundcloud extends Component {
                 <p>
                 Words & music Dylan Nirvana  ©2021 BMI</p>
                 <br />
-                <h3><span style={{color: "red"}}>Dylan Nirvana</span> A full heave of the cutlery. A guitarist's revenge on the status quo. <span style={{color: "red"}}>“Like Elvis Costello. Morrissey meets Motörhead”</span> - The Village Voice <span style={{color: "red"}}>“A harder early Bowie”</span> - Country Music Awards</h3>
+                <h3><span style={{color: "red"}}>Dylan Nirvana</span> A witty and vainglorious heave of the cutlery. A guitarist's revenge on the status quo. <span style={{color: "red"}}>“Like Elvis Costello. Morrissey meets Motörhead”</span> - The Village Voice <span style={{color: "red"}}>“A harder early Bowie”</span> - Country Music Awards</h3>
                 <br />
                 <br />
                 <br />

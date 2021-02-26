@@ -15,9 +15,12 @@ class Contact extends React.Component {
     render() {
         return (
             <Container className="section">
+
+                {/* <h5>Look at a <span style={{color: "red"}}> <a href="https://dylannirvana.disco.ac/lib/3929">Searchable catalog of music.</a> </span> by Dylan Nirvana</h5> */}
+
                 
                 <h4>Contact Icarian Records</h4>
-                <p>One-stop easy clearance on publishing and masters. For questions or inquiries:</p>
+                <p>Label or Publishing A&R, press and other inquiries</p>
                 {/* MAILTO */}
                 <h6 className="email" ><a href="mailto:management@dylannirvana.com">management@dylannirvana.com</a></h6>
                     {/* <Form>

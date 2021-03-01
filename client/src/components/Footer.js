@@ -24,10 +24,10 @@ class Footer extends React.Component {
 
                      <Nav className="justify-content-center footer" >
                         <Nav.Item><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/dylannirvana/"><i className="fab fa-instagram fa-2x"></i></a></Nav.Item>
-                        <Nav.Item><a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/dylannirvana"><i className="fab fa-soundcloud fa-2x"></i></a></Nav.Item>
-                        <Nav.Item><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/TheBadFlowers/"><i className="fab fa-facebook fa-2x"></i></a></Nav.Item>
-                        <Nav.Item><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/DylanNirvana"><i className="fab fa-twitter fa-2x"></i></a></Nav.Item>
-                        <Nav.Item><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/user/DylanNIrvanaNYC/"><i className="fab fa-youtube fa-2x"></i></a></Nav.Item>
+                        {/* <Nav.Item><a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/dylannirvana"><i className="fab fa-soundcloud fa-2x"></i></a></Nav.Item> */}
+                        {/* <Nav.Item><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/TheBadFlowers/"><i className="fab fa-facebook fa-2x"></i></a></Nav.Item> */}
+                        {/* <Nav.Item><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/DylanNirvana"><i className="fab fa-twitter fa-2x"></i></a></Nav.Item> */}
+                        {/* <Nav.Item><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/user/DylanNIrvanaNYC/"><i className="fab fa-youtube fa-2x"></i></a></Nav.Item> */}
                         <Nav.Item><p className="tinytype"> Copyright 2021</p></Nav.Item>
                     </Nav>
                     {/* </Navbar> */}

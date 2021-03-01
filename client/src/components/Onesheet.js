@@ -11,8 +11,8 @@ class Onesheet extends React.Component {
                 <Container className="section">
                     
                     <div>
-                        <h6>Music and TV/Film Industries</h6>
-                        <p>Download a onesheet on Dylan Nirvana</p>
+                        <h5>Press, Music and TV/Film Industries</h5>
+                        <p><i class="far fa-hand-point-right"></i> Download a onesheet on Dylan Nirvana</p>
                         <a target="_blank" rel="noopener noreferrer" href={DownloadPDF}><img src={OnesheetJPG} style={{
                             width: '25%'
                         }} /></a>

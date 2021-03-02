@@ -9,16 +9,18 @@ class Onesheet extends React.Component {
     render() {
         return (
                 <Container className="section">
-                    
-                    <div>
-                        <h5>Press, Music and TV/Film Industries</h5>
-                        <p><i class="far fa-hand-point-right"></i> Download a onesheet on Dylan Nirvana</p>
-                        <a target="_blank" rel="noopener noreferrer" href={DownloadPDF}><img src={OnesheetJPG} style={{
-                            width: '25%'
-                        }} /></a>
+                    <h5>Press, Music and TV/Film Industries</h5>
 
-                        
-                    </div>
+                    <h6><i class="far fa-hand-point-right"></i> <span style={{color: "#f3cd31"}}> <a target="_blank" rel="noopener noreferrer" href="https://dylannirvana.disco.ac/lib/3929"> Dylan Nirvana</a></span> on Disco  searchable library of music. </h6>
+
+                    <p className='tinytype'>Easy clearance on publishing and masters</p>
+
+                    <h6><i class="far fa-hand-point-right"></i><span style={{color: "#f3cd31"}}> <a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/dylannirvana"> Dylan Nirvana</a></span> on SoundCloud </h6>
+<br />
+                    <p><i class="far fa-hand-point-right"></i> Download a onesheet on Dylan Nirvana</p>
+                    <a target="_blank" rel="noopener noreferrer" href={DownloadPDF}><img alt="Download a One-sheet"  src={OnesheetJPG} style={{
+                        width: '25%'
+                    }} /></a>
 
                 </Container>
                

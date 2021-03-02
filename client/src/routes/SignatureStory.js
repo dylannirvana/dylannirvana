@@ -3,6 +3,8 @@ import Container from 'react-bootstrap/Container'
 import Contact from './contact';
 import Caitlyn from '../assets/caitlyn.png'
 import Onesheet from '../components/Onesheet';
+import TweenMax from 'gsap'
+
 // import Facebook from './Facebook'
 // import Row from 'react-bootstrap/Row'
 // import Col from 'react-bootstrap/Col'
@@ -20,12 +22,17 @@ class SignatureStory extends React.Component {
                 height: '100vh',
                 }} />
 
-                {/* <h1 style={{
-                        position: 'absolute',
-                        color: '#362f1f',
-                        bottom: '1.3rem'
+                {/* <h1 className="bigname" style={{
+                        // position: 'absolute',
+                        // color: '#000',
+                        // bottom: '1.3rem',
+                        // opacity: 0,
+                        // transition: 'opacity 1 2s',
+                        // fontSize: '300%'
                     }}
                     >Dylan Nirvana</h1> */}
+
+
 
           </header>
                 <Container className="section">
@@ -48,15 +55,8 @@ class SignatureStory extends React.Component {
 
                      {/* <p>The upcoming record <span style={{color: "#f3cd31"}}>Revolutionary Road</span> produced by Jim Wirt (Fiona Apple), has a story that is a movie in itself. Addiction, theft, unexpected tattoos, digital redemption. Features some unusually candid songwriting. And a new take on living New York Punk, New Wave and Glam Rock. Songs include Rebound Girl, Solitudes and You're Fucking Wrong. Keep an eye out this Spring. </p> */}
 
-                    <Onesheet />
                     <br />
-                    <h6><i class="far fa-hand-point-right"></i> <span style={{color: "#f3cd31"}}> <a target="_blank" rel="noopener noreferrer" href="https://dylannirvana.disco.ac/lib/3929"> Dylan Nirvana</a></span> on Disco  searchable library of music. </h6>
-                    
-                    <p className='tinytype'>Easy clearance on publishing and masters</p>
-
-                    <h6><i class="far fa-hand-point-right"></i><span style={{color: "#f3cd31"}}> <a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/dylannirvana"> Dylan Nirvana</a></span> on SoundCloud </h6>
-
-
+                    <Onesheet />
 
                     <Contact />
                     

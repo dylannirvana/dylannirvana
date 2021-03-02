@@ -204,6 +204,22 @@ div.container {
   }
 }
 
+h1.bigname {
+  font-size: 300%;
+  color: blue;
+  position: absolute;
+  bottom: 1.3rem;
+  opacity: 1;
+  transition: opacity 1s;
+  &:hover {
+    opacity: 0;
+  }
+  @media (max-width: 545px) {
+    font-size: 200%;
+    color: green;
+  }
+}
+
 // ===== FORMS
 form {
   text-align: left !important;

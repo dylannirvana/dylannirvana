@@ -43,7 +43,7 @@ class SignatureStory extends React.Component {
                     <h3>A witty and vainglorious heave of the cutlery. A guitarist's revenge on the status quo. <span style={{color: "#f3cd31"}}>“Like Elvis Costello. Morrissey meets Motörhead”</span> - The Village Voice <span style={{color: "#f3cd31"}}>“A harder early Bowie”</span> - Country Music Awards</h3>
                 <br />
 
-                    <p>Dylan Nirvana became a familiar voice in the New York City underground. Most notably the anti-folk scene downtown at the East Village's Sidewalk Cafe. With Billy Ficca (from the legendary band Television) on drums, <span style={{color: "#f3cd31"}}>Dylan Nirvana and The Bad Flowers</span> have played at Arlene Grocery, Crash Mansion, Lit, Luna Lounge, CBGB and Pianos. </p>
+                    <p>Dylan Nirvana became a familiar voice in the New York City underground. Most notably, the anti-folk scene downtown at the East Village's Sidewalk Cafe. With Billy Ficca (from the legendary band Television) on drums, <span style={{color: "#f3cd31"}}>Dylan Nirvana and The Bad Flowers</span> have played at Arlene Grocery, Crash Mansion, Lit, Luna Lounge, CBGB and Pianos. </p>
 
                     {/* <h5> <span style={{color: "#f3cd31"}}>“Like Elvis Costello. Morrissey meets Motörhead”</span> - The Village Voice</h5> */}
                     

@@ -206,7 +206,7 @@ div.container {
 
 h1.bigname {
   font-size: 300%;
-  color: blue;
+  color:#000;
   position: absolute;
   bottom: 1.3rem;
   opacity: 1;
@@ -216,7 +216,7 @@ h1.bigname {
   }
   @media (max-width: 545px) {
     font-size: 200%;
-    color: green;
+    // color: green;
   }
 }
 

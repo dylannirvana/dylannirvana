@@ -19,10 +19,10 @@ class Contact extends React.Component {
                 {/* <h5>Look at a <span style={{color: "red"}}> <a href="https://dylannirvana.disco.ac/lib/3929">Searchable catalog of music.</a> </span> by Dylan Nirvana</h5> */}
 
                 
-                <h6>Contact Icarian Records</h6>
+                {/* <h6>Contact Icarian Records</h6> */}
                 {/* <p>Label or Publishing A&R, press and other inquiries</p> */}
                 {/* MAILTO */}
-                <h6 className="email" ><i class="far fa-hand-point-right"></i> <a href="mailto:management@dylannirvana.com">management@dylannirvana.com</a></h6>
+                <h6 className="email" ><i class="far fa-hand-point-right"></i> Contact <a href="mailto:management@dylannirvana.com">management@dylannirvana.com</a></h6>
                     {/* <Form>
                     <Form.Label>Name</Form.Label>
                         <Form.Row>
@@ -56,14 +56,7 @@ class Contact extends React.Component {
                 
 
                 {/* Add space */}
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
+            
                 
             </Container>
 

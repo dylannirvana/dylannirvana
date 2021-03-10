@@ -1,8 +1,9 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container'
-import Contact from './contact';
+// import Contact from './contact';
 import Caitlyn from '../assets/caitlyn.png'
-import Onesheet from '../components/Onesheet';
+import MailingList from '../components/Mailinglist';
+// import Onesheet from '../components/Onesheet';
 // import TweenMax from 'gsap'
 
 // import Facebook from './Facebook'
@@ -40,7 +41,7 @@ class SignatureStory extends React.Component {
                     {/* Signature Story */}
                     {/* <p>Tired of your little lockdown?</p> */}
 
-                    <h3>A witty and vainglorious heave of the cutlery. A guitarist's revenge on the status quo. <span style={{color: "#f3cd31"}}>“Like Elvis Costello. Morrissey meets Motörhead”</span> - The Village Voice <span style={{color: "#f3cd31"}}>“A harder early Bowie”</span> - Country Music Awards</h3>
+                    <h3><span style={{color: "#f3cd31"}}>"Pure New York City Punk Rock"</span> - London B-Max Festival. A witty and vainglorious full heave of the cutlery. A guitarist's revenge on the status quo. <span style={{color: "#f3cd31"}}>“Like Elvis Costello. Morrissey meets Motörhead”</span> - The Village Voice <span style={{color: "#f3cd31"}}>“A harder early Bowie”</span> - Country Music Awards</h3>
                 <br />
 
                     <p>Dylan Nirvana became a familiar voice in the New York City underground. Most notably, the anti-folk scene downtown at the East Village's Sidewalk Cafe. With Billy Ficca (from the legendary band Television) on drums, <span style={{color: "#f3cd31"}}>Dylan Nirvana and The Bad Flowers</span> have played at Arlene Grocery, Crash Mansion, Lit, Luna Lounge, CBGB and Pianos. </p>
@@ -56,9 +57,11 @@ class SignatureStory extends React.Component {
                      {/* <p>The upcoming record <span style={{color: "#f3cd31"}}>Revolutionary Road</span> produced by Jim Wirt (Fiona Apple), has a story that is a movie in itself. Addiction, theft, unexpected tattoos, digital redemption. Features some unusually candid songwriting. And a new take on living New York Punk, New Wave and Glam Rock. Songs include Rebound Girl, Solitudes and You're Fucking Wrong. Keep an eye out this Spring. </p> */}
 
                     <br />
-                    <Onesheet />
+                    {/* <Onesheet /> */}
 
-                    <Contact />
+                    {/* <Contact /> */}
+
+                    <MailingList />
                     
                 </Container>
                </div>

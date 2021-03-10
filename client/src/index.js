@@ -18,7 +18,8 @@ import * as serviceWorker from './serviceWorker';
 import gsap from 'gsap'
 import SignatureStory from './routes/SignatureStory';
 // import Soundcloud from './components/Soundcloud';
-import MailingList from './components/Mailinglist';
+import Onesheet from './components/Onesheet';
+// import MailingList from './components/Mailinglist';
 
 
 
@@ -45,7 +46,13 @@ const routing = (
               </Nav.Item>
 
               <Nav.Item onClick={() => gsap.from(".circle3", {ease:"bounce", scale: 0.5, duration: 1, x: -14})}  className="circle3">
-                <a className="nav-link" activeClassName="active" href="https://soundcloud.com/dylannirvana/">
+                <NavLink className="nav-link" activeClassName="active" to="/onesheet">
+                  Press Kit
+                </NavLink>         
+              </Nav.Item>
+
+              <Nav.Item onClick={() => gsap.from(".circle4", {ease:"bounce", scale: 0.5, duration: 1, x: -14})}  className="circle4">
+                <a className="nav-link" target="_blank" activeClassName="active" href="https://soundcloud.com/dylannirvana/">
                   Songs
                 </a>         
               </Nav.Item>
@@ -74,7 +81,8 @@ const routing = (
         <Route path="/media" component={Media} /> */}
         <Route path="/story" component={SignatureStory} />
         {/* <Route path="/soundcloud" href="https://soundcloud.com/dylannirvana/this-is-the-greatest-day-of-my-life" /> */}
-        <Route path="/mailinglist" component={MailingList} />
+        {/* <Route path="/mailinglist" component={MailingList} /> */}
+        <Route path="/onesheet" component={Onesheet} />
         <Route component={Notfound} />
       </Switch> 
       {/* </Container> */}

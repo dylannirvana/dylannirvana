@@ -9,7 +9,7 @@ class MailingList extends React.Component {
             <div >
                 <Container className="section">
                 <div>
-                    <h3>Get on this mailing list.</h3>
+                    <h3>You will be the first to know...</h3>
                     <div className="widget_iframe" style={{display:"inline-block", width:"100%", height:"184px", margin:0, padding:0, border:0}}>
                         <iframe title="mailing list" className="widget_iframe" src="https://www.reverbnation.com/widget_code/html_widget/artist_27466?widget_id=54&amp;posted_by=artist_27466&pwc[design]=default&pwc[background_color]=%23140d78&pwc[size]=fit"  frameborder="0" scrolling="no" style={{ minWidth:"100%", width:"100%", height:"100%"}}></iframe>
                         

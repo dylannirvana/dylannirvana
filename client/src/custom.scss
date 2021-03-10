@@ -14,7 +14,7 @@ $green: #018265;
 $purple: #9d0170;
 $red: red;
 $gray: #282c34;
-$yellow: yellow;
+$yellow: #f3cd31;
 
 // // Color adjustments
 $newpollution: darken($yellow, 5%);
@@ -39,7 +39,8 @@ body {
 // ===== Type
 // Type
 $body-color: $lt-gray;
-$link-color: $toxicwaste;
+// $link-color: $toxicwaste;
+$link-color: $yellow;
 $link-hover-color: $pollution !default;
 .active {
     color: white;
@@ -151,8 +152,8 @@ a.nav-link, .navbar-brand {
 .section {
   padding-top: 3rem;
   // padding-bottom: 6rem;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  // margin-left: 3rem;
+  // margin-right: 3rem;
 }
 
 .heading {
@@ -205,7 +206,8 @@ div.container {
 }
 
 h1.bigname {
-  font-size: 300%;
+  font-size: 8rem;
+  z-index: 11;
   color:#000;
   position: absolute;
   bottom: 1.3rem;
@@ -215,7 +217,22 @@ h1.bigname {
     opacity: 0;
   }
   @media (max-width: 545px) {
-    font-size: 200%;
+    font-size: 2.2rem;
+    // color: green;
+  }
+}
+
+h1.prettybigname {
+  font-size: 8rem;
+  z-index: 11;
+  color:#f3cd31;
+  opacity: 1;
+  transition: opacity 1s;
+  &:hover {
+    opacity: 0;
+  }
+  @media (max-width: 545px) {
+    font-size: 3rem;
     // color: green;
   }
 }

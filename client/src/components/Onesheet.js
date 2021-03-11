@@ -32,13 +32,13 @@ class Onesheet extends React.Component {
                 <br />
                 <br />
 
-                <p><i class="far fa-hand-point-right"></i> View an easy-squeezy <span style={{color: "#f3cd31"}}> <a target="_blank" rel="noopener noreferrer" href="https://s.disco.ac/suvxzcntmvxz"> Press Kit</a></span> on Disco</p>
+                <p><i class="far fa-hand-point-right"></i>  <span style={{color: "#f3cd31"}}> <a target="_blank" rel="noopener noreferrer" href="https://s.disco.ac/suvxzcntmvxz"> Press Kit</a></span> </p>
 
                 
-                <p><i class="far fa-hand-point-right"></i> Look at a fully searchable <span style={{color: "#f3cd31"}}> <a target="_blank" rel="noopener noreferrer" href="https://dylannirvana.disco.ac/lib/3929"> Music Library</a></span> of music by Dylan Nirvana </p>
+                <p><i class="far fa-hand-point-right"></i> Fully searchable library of music by <span style={{color: "#f3cd31"}}><a target="_blank" rel="noopener noreferrer" href="https://dylannirvana.disco.ac/lib/3929"> Dylan Nirvana</a></span> on Disco </p>
 
 
-                <p><i class="far fa-hand-point-right"></i> And of course, <span style={{color: "#f3cd31"}}> <a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/dylannirvana"> Dylan Nirvana</a></span> on SoundCloud </p>                    
+                <p><i class="far fa-hand-point-right"></i>  <span style={{color: "#f3cd31"}}> <a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/dylannirvana"> Dylan Nirvana</a></span> on SoundCloud </p>                    
 
                 <p className="email" ><i class="far fa-hand-point-right"></i> Haul off and email <a href="mailto:management@dylannirvana.com">management@dylannirvana.com</a></p>
 

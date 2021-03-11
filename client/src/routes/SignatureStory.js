@@ -2,7 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container'
 // import Contact from './contact';
 import Caitlyn from '../assets/caitlyn.png'
-import MailingList from '../components/Mailinglist';
+// import MailingList from '../components/Mailinglist';
 // import Onesheet from '../components/Onesheet';
 // import TweenMax from 'gsap'
 
@@ -54,14 +54,24 @@ class SignatureStory extends React.Component {
 
                     {/* <h5> <span style={{color: "#f3cd31"}}>“A harder early Bowie”</span> - Country Music Awards</h5> */}
 
-                     {/* <p>The upcoming record <span style={{color: "#f3cd31"}}>Revolutionary Road</span> produced by Jim Wirt (Fiona Apple), has a story that is a movie in itself. Addiction, theft, unexpected tattoos, digital redemption. Features some unusually candid songwriting. And a new take on living New York Punk, New Wave and Glam Rock. Songs include Rebound Girl, Solitudes and You're Fucking Wrong. Keep an eye out this Spring. </p> */}
+                     <p>The yet unreleased record <span style={{color: "#f3cd31"}}>Revolutionary Road</span> produced by Jim Wirt (Fiona Apple), has a story that is a movie in itself. Addiction, theft, unexpected tattoos, digital redemption. Features some unusually candid songwriting. And a new take on  New York Post Punk, New Wave and Glam Rock. Songs include Rebound Girl, Solitudes and You're Fucking Wrong. The release date has not yet been scheduled. </p>
 
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <p><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/dylannirvana/">What was the Greatest Day of your Life? <i className="fab fa-instagram fa-2x"></i></a></p>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
                     <br />
                     {/* <Onesheet /> */}
 
                     {/* <Contact /> */}
 
-                    <MailingList />
+                    {/* <MailingList /> */}
                     
                 </Container>
                </div>

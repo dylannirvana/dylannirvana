@@ -52,7 +52,7 @@ const routing = (
               </Nav.Item>
 
               <Nav.Item onClick={() => gsap.from(".circle4", {ease:"bounce", scale: 0.5, duration: 1, x: -14})}  className="circle4">
-                <a className="nav-link" target="_blank" activeClassName="active" href="https://soundcloud.com/dylannirvana/">
+                <a className="nav-link" rel="noopener noreferrer" target="_blank" activeClassName="active" href="https://soundcloud.com/dylannirvana/">
                   Songs
                 </a>         
               </Nav.Item>

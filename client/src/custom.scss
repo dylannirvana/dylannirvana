@@ -71,7 +71,9 @@ $nav-font: $headings-font-family;
 
 // ===== FONT AWESOME
 i.fab {
-  color: $lt-gray;
+  // color: $lt-gray;
+  color: $yellow;
+  vertical-align: middle; // NOTE: I added vertical align for a paragraph on front page
 }
 
 // ===== VDO

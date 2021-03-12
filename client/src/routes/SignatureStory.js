@@ -31,7 +31,8 @@ class SignatureStory extends React.Component {
                         // transition: 'opacity 1 2s',
                         // fontSize: '300%'
                     }}
-                    >Dylan Nirvana</h1>
+                    >Dylan Nirvana
+                </h1>
 
 
 
@@ -60,13 +61,10 @@ class SignatureStory extends React.Component {
                     <br />
                     <br />
                     <br />
-                    <p><a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/dylannirvana/this-is-the-greatest-day-of-my-life">What was the Greatest Day of your Life? <i className="fab fa-soundcloud fa-2x"></i></a></p>
+                    <p><a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/dylannirvana/this-is-the-greatest-day-of-my-life">What was the Greatest Day of your Life? <i className="fab fa-soundcloud fa-2x"></i></a></p>                   
                     <br />
                     <br />
-                    <br />
-                    <br />
-                    <br />
-                    <br />
+
                     {/* <Onesheet /> */}
 
                     {/* <Contact /> */}

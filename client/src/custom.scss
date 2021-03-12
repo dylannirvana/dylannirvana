@@ -216,6 +216,7 @@ h1.bigname {
   opacity: 1;
   transition: opacity 1s;
   &:hover {
+    color: #f3cd31;
     opacity: 0;
   }
   @media (max-width: 545px) {

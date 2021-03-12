@@ -26,50 +26,56 @@ class Soundcloud extends Component {
                     {/* Signature Story */}
                 
                  <Container>
-                    <h3><span style={{color: "#f3cd31"}}>"Pure New York City Punk Rock"</span> - London B-Max Festival. A witty and vainglorious full heave of the cutlery. A guitarist's revenge on the status quo. <span style={{color: "#f3cd31"}}>“Like Elvis Costello. Morrissey meets Motörhead”</span> - The Village Voice <span style={{color: "#f3cd31"}}>“A harder early Bowie”</span> - Country Music Awards</h3>
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                
-               <p>Tired of your little lockdown?</p>
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                 <h3>This is the Greatest Day of my Life</h3>
-                <div className='player-wrapper-soundcloud'>
+                     {/* BIO */}
+                    <h3><span style={{color: "#f3cd31", height: '70vh'}}>"Pure New York City Punk Rock"</span> - London B-Max Festival. A witty and vainglorious full heave of the cutlery. A guitarist's revenge on the status quo. <span style={{color: "#f3cd31"}}>“Like Elvis Costello. Morrissey meets Motörhead”</span> - The Village Voice <span style={{color: "#f3cd31"}}>“A harder early Bowie”</span> - Country Music Awards</h3>
+                    
+                    {/* TIRED */}
+                <div className='section' style={{
+                    objectFit: 'cover',
+                    // width: '100vw',
+                    height: '70vh',
+                    }}>
+                        <p>Tired of your little lockdown?</p>
+                </div>
+                   
+                    {/* SONG */}
+                <h3>This is the Greatest Day of my Life</h3>
+                <div className='player-wrapper-soundcloud' style={{
+                    objectFit: 'cover',
+                    // width: '100vw',
+                    height: '70vh',
+                }}>
                     <ReactPlayer
                     className='react-player'
                     url='https://soundcloud.com/dylannirvana/this-is-the-greatest-day-of-my-life'
                     width='100%'
-                    height='auto'
+                    height='100%'
                     />
                     <br />
                     <br />
                     <br />
                     <br />
+                    <br />
+                    <br />
+                    <br />
                 </div> 
-                    <br />
-                    <br />
-                    <br />
-                    <p>
-                    Words & music Dylan Nirvana  ©2021 BMI</p>
+                    <p>Words & music Dylan Nirvana  ©2021 BMI</p>
+                    {/* <br />
                     <br />
                     <br />
                     <br />
                     <br />
                     <br />
-                    
-                    <p><a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/dylannirvana/this-is-the-greatest-day-of-my-life">What was the Greatest Day of your Life? <i className="fab fa-soundcloud fa-2x"></i></a></p>                    
+                    <br />
+                    <br /> */}
+                    {/* <div className='section' style={{
+                        objectFit: 'cover',
+                        // width: '100vw',
+                        height: '100vh',
+                        }}>
+                            <p><a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/dylannirvana/this-is-the-greatest-day-of-my-life">What was the Greatest Day of your Life? <i className="fab fa-soundcloud fa-2x"></i></a></p>                    
+                    </div> */}
+
                     <br />
                     <br />
                     <br />

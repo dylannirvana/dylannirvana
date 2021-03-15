@@ -21,7 +21,7 @@ class Soundcloud extends Component {
         return (
             <div className="section">
                  {/* SOUNDCLOUD */}
-
+                {/* <p className='byline'>Videos and photography by Larry Buskey</p> */}
                  <h1 className="prettybigname">Dylan Nirvana</h1>
                     {/* Signature Story */}
                 
@@ -42,14 +42,16 @@ class Soundcloud extends Component {
                 <h3>This is the Greatest Day of my Life</h3>
                 <div className='player-wrapper-soundcloud' style={{
                     objectFit: 'cover',
+                    
                     // width: '100vw',
-                    height: '70vh',
+                    height: '45vh'
                 }}>
                     <ReactPlayer
                     className='react-player'
                     url='https://soundcloud.com/dylannirvana/this-is-the-greatest-day-of-my-life'
                     width='100%'
-                    height='100%'
+                    // height='100%'
+                    height='45vh'
                     />
                     <br />
                     <br />

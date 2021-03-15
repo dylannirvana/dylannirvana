@@ -34,6 +34,15 @@ body {
   text-align: center !important;
 }
 
+.byline {
+  font-size: .5rem;
+  color: $lt-gray;
+  position: absolute;
+  bottom: 0px;
+  right: 4px;
+  padding-right: 14px;
+}
+
 
 
 // ===== Type

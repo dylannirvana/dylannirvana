@@ -92,7 +92,8 @@ class CoverVDO extends Component {
                 width: '100vw',
                 height: '100vh',
                 }} />
-  
+
+              {/* <p className='byline'>Videography by <a href='https://www.facebook.com/lbuskey' target='_blank'>Larry Buskey</a> </p> */}
           </header>
         )
     }

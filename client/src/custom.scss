@@ -183,7 +183,7 @@ a.nav-link, .navbar-brand {
   width: 100%;
   z-index: 1;
 
-  font-size: .128rem;
+  // font-size: .35rem;
   color: $lt-gray;
   padding-top: .8rem;
 
@@ -195,10 +195,10 @@ a.nav-link, .navbar-brand {
   }
 }
 
-// .tinytype {
-//   font-size: .128rem;
-//   padding-top: .8rem;
-// }
+.tinytype {
+  font-size: .5rem;
+  padding-top: .45rem;
+}
 
 .copyright {
   justify-content: end;

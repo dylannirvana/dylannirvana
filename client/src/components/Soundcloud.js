@@ -30,10 +30,11 @@ class Soundcloud extends Component {
                     <h3><span style={{color: "#f3cd31", height: '70vh'}}>"New York City Punk Rock"</span> - London B-Max Festival. A witty and vainglorious full heave of the cutlery. A guitarist's revenge on the status quo. <span style={{color: "#f3cd31"}}>“Like Elvis Costello. Morrissey meets Motörhead”</span> - The Village Voice <span style={{color: "#f3cd31"}}>“A harder early Bowie”</span> - Country Music Awards</h3>
                     
                     {/* TIRED */}
-                <div className='section' style={{
-                    objectFit: 'cover',
+                <div className='section' 
+                    style={{
+                    // objectFit: 'cover',
                     // width: '100vw',
-                    height: '70vh',
+                    // height: '70vh',
                     }}>
                         <p>Tired of your little lockdown?</p>
                 </div>

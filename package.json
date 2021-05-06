@@ -17,12 +17,13 @@
     "react-helmet": "^6.1.0",
     "react-iframe": "^1.8.0",
     "react-instagram-embed": "^1.5.0",
-    "react-player": "^2.2.0",
+    "react-player": "^2.9.0",
+    "react-script-tag": "^1.1.2",
     "react-twitter-embed": "^3.0.3",
     "react-video-cover": "^1.2.2"
   },
   "devDependencies": {
     "concurrently": "^4.0.1",
-    "nodemon": "^2.0.3"
+    "nodemon": "^2.0.7"
   }
 }

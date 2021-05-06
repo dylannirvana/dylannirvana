@@ -1,22 +1,20 @@
-import React from 'react';
-// import Container from 'react-bootstrap/Container'
-import ScriptTag from 'react-script-tag'
+// import React from 'react';
+// import ConvertKitForm from 'convertkit-react'
 
-class Convertkit extends React.Component {
-    componentDidMount() {
+// const MY_FORM_ID = 2248904
+// function Convertkit() {
+//     // const config = {
+//     //     formId: MY_FORM_ID,
+//     //     template: 'cocoa',
+//     //     // emailPlaceholder: 'Enter an email address',
+//     //     // submitText: 'Sign up',
+//     //   }
+    
+//       return (
+//         <ConvertKitForm MY_FORM_ID />
+//         // <ConvertKitForm {...config} />
+//       )
+//   }
 
-    }
+// export default Convertkit;
 
-      render() {       
-          return (
-            <div style={{paddingLeft:50}} >
-                {/* <Container className="section"> */}
-                    <p>Yo</p>
-                    <ScriptTag isHydrating={false} data-uid="e9274113f5" src="https://astounding-creator-7935.ck.page/e9274113f5/index.js" />                {/* </Container> */}
-
-            </div>
-        )
-    }
-}
-
-export default Convertkit;

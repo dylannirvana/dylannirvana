@@ -62,7 +62,7 @@ class Soundcloud extends Component {
                     <br />
                     <br />
                 </div> 
-                    <p>Words & music Dylan Nirvana  ©2021 BMI</p>
+                    <p className="tinytype" >Words & music Dylan Nirvana  ©2021 BMI</p>
                     {/* <br />
                     <br />
                     <br />
@@ -78,13 +78,15 @@ class Soundcloud extends Component {
                         }}>
                             <p><a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/dylannirvana/this-is-the-greatest-day-of-my-life">What was the Greatest Day of your Life? <i className="fab fa-soundcloud fa-2x"></i></a></p>                    
                     </div> */}
-
+                    {/* <br />
                     <br />
                     <br />
+                    <br /> */}
                     <br />
                     <br />
-                    <br />
-                    <br />
+                    <h3><a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/dylannirvana/this-is-the-greatest-day-of-my-life">What was the Greatest Day of your Life? <i className="fab fa-soundcloud fa-2x"></i></a></h3>                   
+                    {/* <br />
+                    <br /> */}
                </Container>
 
                   {/* <p>From the record Anne Boleyn by Dylan Nirvana</p> */}

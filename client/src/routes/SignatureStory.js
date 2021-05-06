@@ -2,6 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container'
 // import Contact from './contact';
 import Caitlyn from '../assets/caitlyn.png'
+// import Convertkit from '../components/Convertkit';
 // import MailingList from '../components/Mailinglist';
 // import Onesheet from '../components/Onesheet';
 // import TweenMax from 'gsap'
@@ -58,9 +59,7 @@ class SignatureStory extends React.Component {
 
                      <p>The yet unreleased record <span style={{color: "#f3cd31"}}>Revolutionary Road</span> produced by Jim Wirt (Fiona Apple), has a story that is a movie in itself. Addiction, theft, unexpected tattoos, accidental redemption. Features some unusually candid songwriting. And a new take on Post Punk, New Wave and Glam Rock. Songs include Rebound Girl, Solitudes and You're F*cking Wrong. This is an unreleased record. </p>
 
-                    <br />
-                    <br />
-                    <br />
+                    {/* <Convertkit /> */}
                     <br />
                     <p><a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/dylannirvana/this-is-the-greatest-day-of-my-life">What was the Greatest Day of your Life? <i className="fab fa-soundcloud fa-2x"></i></a></p>                   
                     <br />
@@ -69,7 +68,6 @@ class SignatureStory extends React.Component {
                     {/* <Onesheet /> */}
 
                     {/* <Contact /> */}
-
                     {/* <MailingList /> */}
                     
                 </Container>

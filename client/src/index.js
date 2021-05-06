@@ -17,8 +17,8 @@ import Notfound from './notfound';
 import * as serviceWorker from './serviceWorker';
 import gsap from 'gsap'
 import SignatureStory from './routes/SignatureStory';
-// import Soundcloud from './components/Soundcloud';
 import Onesheet from './components/Onesheet';
+// import Soundcloud from './components/Soundcloud';
 // import MailingList from './components/Mailinglist';
 
 
@@ -74,16 +74,16 @@ const routing = (
       {/* <Container> */}
       <Switch>
         <Route exact path="/" component={App} />
+        <Route path="/story" component={SignatureStory} />
+        <Route path="/onesheet" component={Onesheet} />
+        <Route component={Notfound} />
         {/* <Route path="/artists/:id" component={Artists} />
         <Route path="/artists" component={Artists} /> */}
         {/* <Route path="/clients/:id" component={Clients} /> */}
         {/* <Route path="/clients" component={Clients} />
         <Route path="/media" component={Media} /> */}
-        <Route path="/story" component={SignatureStory} />
         {/* <Route path="/soundcloud" href="https://soundcloud.com/dylannirvana/this-is-the-greatest-day-of-my-life" /> */}
         {/* <Route path="/mailinglist" component={MailingList} /> */}
-        <Route path="/onesheet" component={Onesheet} />
-        <Route component={Notfound} />
       </Switch> 
       {/* </Container> */}
 

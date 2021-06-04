@@ -84,7 +84,7 @@ class Soundcloud extends Component {
                     <br /> */}
                     <br />
                     <br />
-                    <h3><a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/dylannirvana/this-is-the-greatest-day-of-my-life">What was the Greatest Day of your Life? <i className="fab fa-soundcloud fa-2x"></i></a></h3>                   
+                    {/* <h3><a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/dylannirvana/this-is-the-greatest-day-of-my-life">What was the Greatest Day of your Life? <i className="fab fa-soundcloud fa-2x"></i></a></h3>                    */}
                     {/* <br />
                     <br /> */}
                </Container>

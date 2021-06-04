@@ -4,11 +4,10 @@ import React, { Component } from 'react';
 // import Container from 'react-bootstrap/Container'
 import './App.css';
 import CoverVDO from './components/CoverVDO';
-import Onesheet from './components/Onesheet';
-import SignatureStory from './routes/SignatureStory';
+// import SignatureStory from './routes/SignatureStory';
 import Soundcloud from './components/Soundcloud';
 // import MailingList from './components/Mailinglist';
-import Container from 'react-bootstrap/Container';
+// import Container from 'react-bootstrap/Container';
 // import Gofundme from './components/gofundme';
 // import Youtube from './components/Youtube';
 // import Story from './components/Story';
@@ -91,10 +90,10 @@ render() {
           <Soundcloud />
          </div>
 
-        <Container>
+        {/* <Container>
           <SignatureStory />
           <Onesheet />
-        </Container>
+        </Container> */}
 
          <div>
           {/* <MailingList /> */}

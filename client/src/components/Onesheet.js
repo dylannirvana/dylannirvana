@@ -27,7 +27,7 @@ class Onesheet extends React.Component {
                 <h5>Press, Music and TV/Film Industries</h5>
                 <p className='tinytype'>Easy clearance on publishing and masters</p>
                 
-                <iframe id="disco-playlist-6421710" name="disco-playlist-6421710" title="onesheet" allowfullscreen frameborder="0" class="disco-embed" src="https://dylannirvana.disco.ac/e/p/6421710?download=true&s=VLFPatXpegQwGMBXM-0BUeY-BUs%3AytBSLCpO&artwork=true&theme=dark&color=%2332B57C" width="355" height="395"></iframe>
+                <iframe id="disco-playlist-6421710" name="disco-playlist-6421710" title="onesheet" allowfullscreen frameborder="0" class="disco-embed" src="https://dylannirvana.disco.ac/e/p/6421710?download=true&s=VLFPatXpegQwGMBXM-0BUeY-BUs%3AytBSLCpO&artwork=true&theme=dark&color=%23F4CC30" width="355" height="395"></iframe>
 
                 <br />
                 <br />
@@ -35,10 +35,10 @@ class Onesheet extends React.Component {
                 <p><i class="far fa-hand-point-right"></i>  <span style={{color: "#f3cd31"}}> <a target="_blank" rel="noopener noreferrer" href="https://s.disco.ac/suvxzcntmvxz"> Press Kit</a></span> </p>
 
                 
-                <p><i class="far fa-hand-point-right"></i> Fully searchable library of music by <span style={{color: "#f3cd31"}}><a target="_blank" rel="noopener noreferrer" href="https://dylannirvana.disco.ac/lib/3929"> Dylan Nirvana</a></span> on Disco </p>
+                <p><i class="far fa-hand-point-right"></i> Fully searchable library of music <span style={{color: "#f3cd31"}}><a target="_blank" rel="noopener noreferrer" href="https://library.dylannirvana.com/"> library.dylannirvana.com/</a></span> on DISCO </p>
 
 
-                <p><i class="far fa-hand-point-right"></i>  <span style={{color: "#f3cd31"}}> <a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/dylannirvana"> Dylan Nirvana</a></span> on SoundCloud </p>                    
+                <p><i class="far fa-hand-point-right"></i>  <span style={{color: "#f3cd31"}}> <a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/dylannirvana"> Soundcloud.com/dylannirvana</a></span> on SoundCloud </p>                    
 
                 <p className="email" ><i class="far fa-hand-point-right"></i> Haul off and email <a href="mailto:management@dylannirvana.com">management@dylannirvana.com</a></p>
 

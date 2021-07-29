@@ -39,7 +39,7 @@ class Soundcloud extends Component {
                         <p>Tired of your little lockdown?</p>
                 </div>
                    
-                    {/* SONG */}
+             {/* SONG 1 */}
                 <h3>This is the Greatest Day of my Life</h3>
                 <div className='player-wrapper-soundcloud' style={{
                     objectFit: 'cover',
@@ -63,6 +63,61 @@ class Soundcloud extends Component {
                     <br />
                 </div> 
                     <p className="tinytype" >Words & music Dylan Nirvana  ©2021 BMI</p>
+                {/* END SONG */}
+            
+             {/* SONG 2 */}
+                <h3>Rebound Girl</h3>
+                <div className='player-wrapper-soundcloud' style={{
+                    objectFit: 'cover',
+                    
+                    // width: '100vw',
+                    height: '45vh'
+                }}>
+                    <ReactPlayer
+                    className='react-player'
+                    url='https://soundcloud.com/dylannirvana/rebound-girl'
+                    width='100%'
+                    // height='100%'
+                    height='45vh'
+                    />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                </div> 
+                    <p className="tinytype" >Words & music Dylan Nirvana  ©2021 BMI</p>
+                {/* END SONG */}
+
+             {/* SONG 3 */}
+                <h3>You're F*cking Wrong</h3>
+                <div className='player-wrapper-soundcloud' style={{
+                    objectFit: 'cover',
+                    
+                    // width: '100vw',
+                    height: '45vh'
+                }}>
+                    <ReactPlayer
+                    className='react-player'
+                    url='https://soundcloud.com/dylannirvana/wrong'
+                    width='100%'
+                    // height='100%'
+                    height='45vh'
+                    />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                </div> 
+                    <p className="tinytype" >Words & music Dylan Nirvana  ©2021 BMI</p>
+                {/* END SONG */}
+
+
                     {/* <br />
                     <br />
                     <br />

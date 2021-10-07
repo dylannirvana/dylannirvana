@@ -48,7 +48,7 @@ class SignatureStory extends React.Component {
                 <br />
 
                     {/* SUMMARY */}
-                    <p>Dylan Nirvana is a familiar voice in the New York City's Post Punk underground. Most notably in the anti-folk scene of the Sidewalk Cafe, Luna Lounge, and CBGB in the East Village.  He has performed along side Living Colour’s Corey Glover, Chris Barron from the Spin Doctors, Blues Traveler’s John Popper, Regina Spektor, Feist and Nelly McKay
+                    <p>Classical Guitarist turned punk rocker, Dylan Nirvana is a familiar voice in the New York City's music underground. Most notably in the anti-folk scene of the Sidewalk Cafe, Luna Lounge, and CBGB in the East Village.  He has performed along side Living Colour’s Corey Glover, Chris Barron from the Spin Doctors, Blues Traveler’s John Popper, Regina Spektor, Feist and Nelly McKay
 </p>
 
                     <p>With Billy Ficca (from the legendary band Television) on drums, <span style={{color: "#f3cd31"}}>Dylan Nirvana and The Bad Flowers</span>' vibe is a hot mix of Revolver, Exile on Main Street, English Settlement, Raw Power, Ziggy Stardust and T-Rex' The Slider. </p>
